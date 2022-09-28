@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{467EE012-3AFF-4D40-BB86-D801A7A5824D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Satis.Biz</RootNamespace>
+    <AssemblyName>Satis.Biz</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminIslemleri\Query.cs" />
+    <Compile Include="AdminIslemleri\SiparisQuery.cs" />
+    <Compile Include="AdminIslemleri\TumUrunler.cs" />
+    <Compile Include="AdminIslemleri\Update.cs" />
+    <Compile Include="AltKategoriYonetimi\SubQuery.cs" />
+    <Compile Include="GenelIslemler\KriptolamaIslemleri.cs" />
+    <Compile Include="GenelIslemler\MailIslemleri.cs" />
+    <Compile Include="KategoriYonetimi\CategoryQuery.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SatisSecenekleri\NikahSekeriOzellikleri.cs" />
+    <Compile Include="SatisSecenekleri\SekerSecenekleri.cs" />
+    <Compile Include="SatisSecenekleri\SepetInsert.cs" />
+    <Compile Include="SatisSecenekleri\SepetQuery.cs" />
+    <Compile Include="SiparisYonetimi\Siparis.cs" />
+    <Compile Include="SiparisYonetimi\SiparisInsert.cs" />
+    <Compile Include="SiparisYonetimi\SiparisQuery.cs" />
+    <Compile Include="SiparisYonetimi\SiparisUpdate.cs" />
+    <Compile Include="SiparisYonetimi\UyeSiparis.cs" />
+    <Compile Include="UrunYonetimi\Sepet.cs" />
+    <Compile Include="UrunYonetimi\KampanyaliUrun.cs" />
+    <Compile Include="UrunYonetimi\UrunDetails.cs" />
+    <Compile Include="UrunYonetimi\UrunGoster.cs" />
+    <Compile Include="UrunYonetimi\UrunInsert.cs" />
+    <Compile Include="UrunYonetimi\UrunQuery.cs" />
+    <Compile Include="UrunYonetimi\UrunSort.cs" />
+    <Compile Include="UyeYonetimi\UyeDelete.cs" />
+    <Compile Include="UyeYonetimi\UyeInsert.cs" />
+    <Compile Include="UyeYonetimi\UyeQuery.cs" />
+    <Compile Include="UyeYonetimi\UyeUpdate.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Satis.Data\Satis.Data.csproj">
+      <Project>{48C04C78-D05D-4CEF-B6A6-3E38B2897824}</Project>
+      <Name>Satis.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

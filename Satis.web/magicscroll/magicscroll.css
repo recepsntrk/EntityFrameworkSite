@@ -1,0 +1,35 @@
+
+.MagicScrollItem img
+{
+    display: block;
+    margin: 0 auto;
+    width: 130px;
+    height: 140px;
+    border:none;
+}
+.MagicScroll.msborder
+{
+    background: #b90000;
+    border-radius: 10px; -moz-border-radius: 10px;-webkit-border-radius: 10px;
+}
+.MagicScroll.msborder .MagicScrollItem
+{
+    background: #000;
+    border-left:5px solid #b80000;
+    border-right:5px solid #b80000;
+    padding: 0 0;
+    text-align: center;
+    font-size: small;
+    font-style: italic;
+}
+.MagicScroll.msborder .MagicScrollArrows
+{
+    width: 36px;
+    height: 36px;
+    background: url('graphics/arrows-padding.png');
+    cursor: pointer;
+}
+.MagicScroll.msborder .MagicScrollArrowLeft
+{
+    background-position: 0 36px;
+}

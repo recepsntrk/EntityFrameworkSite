@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="Default.aspx" title="Ana Sayfa"  description="Ana Sayfamız">
+    <siteMapNode url="OnlineSatis/Default.aspx" title="Online Satış"  description="E-Ticaret" />
+    <siteMapNode url="Hakkimizda.aspx" title="Hakkımızda" description="Hakkımızda">
+      <siteMapNode url="Misyon.aspx" title="Misyonumuz" description="Misyon"/>
+      <siteMapNode url="Vizyon.aspx" title="Vizyonumuz" description="Vizyon"/>
+      <siteMapNode url="Tarihce.aspx" title="Şirket Tarihçesi" description="Tarihçe"/>
+    </siteMapNode>
+    <!--Hakkımızda node unun bittigi yer.-->
+    <siteMapNode url="BizeUlas.aspx" title="Bize Ulasin" description="İletisim">
+      <siteMapNode url="Sorular.aspx" title="Sıkça Sorulan Sorular" description="Sorularınız"/>
+      <siteMapNode url="Destek.aspx" title="Destek" description="Support"/>
+    </siteMapNode>
+    <!--Bize Ulas Nodenun bittigi yer-->
+  </siteMapNode>
+</siteMap>

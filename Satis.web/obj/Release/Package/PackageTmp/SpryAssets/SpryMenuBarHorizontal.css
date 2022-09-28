@@ -1,0 +1,39 @@
+﻿
+ul.MenuBarHorizontal
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-size: 100%;
+	cursor: default;
+	width: auto;
+    background-color: #b80000;
+    
+}
+ul.MenuBarHorizontal li
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-size: small;
+	position: relative;
+	text-align: center;
+	cursor: pointer;
+	width: 106.65px;
+	float: left;
+	font-style: italic;}
+ul.MenuBarHorizontal a
+{
+	display: block;
+	cursor: pointer;
+	background-color: #b90000;
+	padding: 0.5em 0.75em;
+	color: #FFF;
+	text-decoration: none;height:17px;
+	border-radius: 10px; -moz-border-radius: 10px;-webkit-border-radius: 10px
+}
+ul.MenuBarHorizontal a.MenuBarItemHover, ul.MenuBarHorizontal a.MenuBarItemSubmenuHover, ul.MenuBarHorizontal a.MenuBarSubmenuVisible
+{
+	background-color: #000;
+	color: #FF5555;
+}

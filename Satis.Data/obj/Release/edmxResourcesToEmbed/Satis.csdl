@@ -1,0 +1,438 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SatisModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="SatisEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="sysdiagrams" EntityType="SatisModel.sysdiagrams" />
+    <EntitySet Name="tblProduct" EntityType="SatisModel.tblProduct" />
+    <EntitySet Name="tblProductComment" EntityType="SatisModel.tblProductComment" />
+    <EntitySet Name="tblSiparisDetaylari" EntityType="SatisModel.tblSiparisDetaylari" />
+    <EntitySet Name="tblSiparisDurumlari" EntityType="SatisModel.tblSiparisDurumlari" />
+    <EntitySet Name="tblSiparisler" EntityType="SatisModel.tblSiparisler" />
+    <EntitySet Name="tblSubCategory" EntityType="SatisModel.tblSubCategory" />
+    <EntitySet Name="tblUyeIletisim" EntityType="SatisModel.tblUyeIletisim" />
+    <EntitySet Name="tblUyeler" EntityType="SatisModel.tblUyeler" />
+    <EntitySet Name="tblUyeTipleri" EntityType="SatisModel.tblUyeTipleri" />
+    <AssociationSet Name="FK_tblProduct_tblSubCategory" Association="SatisModel.FK_tblProduct_tblSubCategory">
+      <End Role="tblSubCategory" EntitySet="tblSubCategory" />
+      <End Role="tblProduct" EntitySet="tblProduct" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblProductComment_tblProduct" Association="SatisModel.FK_tblProductComment_tblProduct">
+      <End Role="tblProduct" EntitySet="tblProduct" />
+      <End Role="tblProductComment" EntitySet="tblProductComment" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblSiparisDetaylari_tblProduct" Association="SatisModel.FK_tblSiparisDetaylari_tblProduct">
+      <End Role="tblProduct" EntitySet="tblProduct" />
+      <End Role="tblSiparisDetaylari" EntitySet="tblSiparisDetaylari" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblProductComment_tblUyeler" Association="SatisModel.FK_tblProductComment_tblUyeler">
+      <End Role="tblUyeler" EntitySet="tblUyeler" />
+      <End Role="tblProductComment" EntitySet="tblProductComment" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblSiparisDetaylari_tblSiparisler" Association="SatisModel.FK_tblSiparisDetaylari_tblSiparisler">
+      <End Role="tblSiparisler" EntitySet="tblSiparisler" />
+      <End Role="tblSiparisDetaylari" EntitySet="tblSiparisDetaylari" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblSiparisler_tblSiparisDurumlari" Association="SatisModel.FK_tblSiparisler_tblSiparisDurumlari">
+      <End Role="tblSiparisDurumlari" EntitySet="tblSiparisDurumlari" />
+      <End Role="tblSiparisler" EntitySet="tblSiparisler" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblSiparisler_tblUyeler" Association="SatisModel.FK_tblSiparisler_tblUyeler">
+      <End Role="tblUyeler" EntitySet="tblUyeler" />
+      <End Role="tblSiparisler" EntitySet="tblSiparisler" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblUyeIletisim_tblUyeler" Association="SatisModel.FK_tblUyeIletisim_tblUyeler">
+      <End Role="tblUyeler" EntitySet="tblUyeler" />
+      <End Role="tblUyeIletisim" EntitySet="tblUyeIletisim" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblUyeler_tblUyeTipleri" Association="SatisModel.FK_tblUyeler_tblUyeTipleri">
+      <End Role="tblUyeTipleri" EntitySet="tblUyeTipleri" />
+      <End Role="tblUyeler" EntitySet="tblUyeler" />
+    </AssociationSet>
+    <EntitySet Name="tblCategory" EntityType="SatisModel.tblCategory" />
+    <AssociationSet Name="FK_tblSubCategory_tblCategory" Association="SatisModel.FK_tblSubCategory_tblCategory">
+      <End Role="tblCategory" EntitySet="tblCategory" />
+      <End Role="tblSubCategory" EntitySet="tblSubCategory" />
+    </AssociationSet>
+    <EntitySet Name="tblSepet" EntityType="SatisModel.tblSepet" />
+    <AssociationSet Name="FK_tblSepet_tblProduct" Association="SatisModel.FK_tblSepet_tblProduct">
+      <End Role="tblProduct" EntitySet="tblProduct" />
+      <End Role="tblSepet" EntitySet="tblSepet" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblSepet_tblUyeler" Association="SatisModel.FK_tblSepet_tblUyeler">
+      <End Role="tblUyeler" EntitySet="tblUyeler" />
+      <End Role="tblSepet" EntitySet="tblSepet" />
+    </AssociationSet>
+    <EntitySet Name="tblPicture" EntityType="SatisModel.tblPicture" />
+    <AssociationSet Name="FK_tblPicture_tblProduct" Association="SatisModel.FK_tblPicture_tblProduct">
+      <End Role="tblProduct" EntitySet="tblProduct" />
+      <End Role="tblPicture" EntitySet="tblPicture" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Type="String" Name="name" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="principal_id" Nullable="false" />
+    <Property Type="Int32" Name="diagram_id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="version" />
+    <Property Type="Binary" Name="definition" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tblProduct">
+    <Key>
+      <PropertyRef Name="ProductID" />
+    </Key>
+    <Property Type="Int32" Name="ProductID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="ProductName" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="SubCategoryID" Nullable="false" />
+    <Property Type="Decimal" Name="Price" Nullable="false" Precision="8" Scale="2" />
+    <Property Type="Decimal" Name="KdvDahil" Precision="8" Scale="2" />
+    <Property Type="Decimal" Name="OldPrice" Precision="8" Scale="2" />
+    <Property Type="Boolean" Name="ISCampaign" />
+    <Property Type="Int32" Name="Stock" Nullable="false" />
+    <Property Type="String" Name="Size" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Detail" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="ISACTIVE" />
+    <Property Type="Boolean" Name="ISDELETED" />
+    <Property Type="DateTime" Name="ISCREDATE" />
+    <Property Type="DateTime" Name="ISMODDATE" />
+    <Property Type="Int32" Name="ISCREUSERID" />
+    <Property Type="Int32" Name="ISMODUSERID" />
+    <NavigationProperty Name="tblSubCategory" Relationship="SatisModel.FK_tblProduct_tblSubCategory" FromRole="tblProduct" ToRole="tblSubCategory" />
+    <NavigationProperty Name="tblProductComment" Relationship="SatisModel.FK_tblProductComment_tblProduct" FromRole="tblProduct" ToRole="tblProductComment" />
+    <NavigationProperty Name="tblSiparisDetaylari" Relationship="SatisModel.FK_tblSiparisDetaylari_tblProduct" FromRole="tblProduct" ToRole="tblSiparisDetaylari" />
+    <NavigationProperty Name="tblSepet" Relationship="SatisModel.FK_tblSepet_tblProduct" FromRole="tblProduct" ToRole="tblSepet" />
+    <NavigationProperty Name="tblPicture" Relationship="SatisModel.FK_tblPicture_tblProduct" FromRole="tblProduct" ToRole="tblPicture" />
+  </EntityType>
+  <EntityType Name="tblProductComment">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="UyeID" Nullable="false" />
+    <Property Type="Int32" Name="ProductID" Nullable="false" />
+    <Property Type="Byte" Name="Score" Nullable="false" />
+    <Property Type="String" Name="Comment" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="tblProduct" Relationship="SatisModel.FK_tblProductComment_tblProduct" FromRole="tblProductComment" ToRole="tblProduct" />
+    <NavigationProperty Name="tblUyeler" Relationship="SatisModel.FK_tblProductComment_tblUyeler" FromRole="tblProductComment" ToRole="tblUyeler" />
+  </EntityType>
+  <EntityType Name="tblSiparisDetaylari">
+    <Key>
+      <PropertyRef Name="SiparisDetayID" />
+    </Key>
+    <Property Type="Int32" Name="SiparisDetayID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="SiparisID" Nullable="false" />
+    <Property Type="Int32" Name="SiparisTipID" Nullable="false" />
+    <Property Type="Int32" Name="ProductID" Nullable="false" />
+    <Property Type="Int32" Name="Adet" Nullable="false" />
+    <Property Type="String" Name="AlimDetayi" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="ISACTIVE" Nullable="false" />
+    <Property Type="Boolean" Name="ISDELETED" Nullable="false" />
+    <Property Type="DateTime" Name="ISCREDATE" Nullable="false" />
+    <Property Type="DateTime" Name="ISMODDATE" Nullable="false" />
+    <Property Type="Int32" Name="ISMODUSERID" Nullable="false" />
+    <NavigationProperty Name="tblProduct" Relationship="SatisModel.FK_tblSiparisDetaylari_tblProduct" FromRole="tblSiparisDetaylari" ToRole="tblProduct" />
+    <NavigationProperty Name="tblSiparisler" Relationship="SatisModel.FK_tblSiparisDetaylari_tblSiparisler" FromRole="tblSiparisDetaylari" ToRole="tblSiparisler" />
+  </EntityType>
+  <EntityType Name="tblSiparisDurumlari">
+    <Key>
+      <PropertyRef Name="DurumID" />
+    </Key>
+    <Property Type="Int32" Name="DurumID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="DurumAdi" Nullable="false" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="ISACTIVE" Nullable="false" />
+    <Property Type="Boolean" Name="ISDELETED" Nullable="false" />
+    <NavigationProperty Name="tblSiparisler" Relationship="SatisModel.FK_tblSiparisler_tblSiparisDurumlari" FromRole="tblSiparisDurumlari" ToRole="tblSiparisler" />
+  </EntityType>
+  <EntityType Name="tblSiparisler">
+    <Key>
+      <PropertyRef Name="SiparisID" />
+    </Key>
+    <Property Type="Int32" Name="SiparisID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="UyeID" Nullable="false" />
+    <Property Type="Int32" Name="DurumID" Nullable="false" />
+    <Property Type="Decimal" Name="SiparisToplamTutar" Nullable="false" Precision="8" Scale="2" />
+    <Property Type="Boolean" Name="ISACTIVE" Nullable="false" />
+    <Property Type="Boolean" Name="ISDELETED" Nullable="false" />
+    <Property Type="DateTime" Name="ISCREDATE" Nullable="false" />
+    <Property Type="DateTime" Name="ISMODDATE" Nullable="false" />
+    <Property Type="Int32" Name="ISMODUSERID" Nullable="false" />
+    <NavigationProperty Name="tblSiparisDetaylari" Relationship="SatisModel.FK_tblSiparisDetaylari_tblSiparisler" FromRole="tblSiparisler" ToRole="tblSiparisDetaylari" />
+    <NavigationProperty Name="tblSiparisDurumlari" Relationship="SatisModel.FK_tblSiparisler_tblSiparisDurumlari" FromRole="tblSiparisler" ToRole="tblSiparisDurumlari" />
+    <NavigationProperty Name="tblUyeler" Relationship="SatisModel.FK_tblSiparisler_tblUyeler" FromRole="tblSiparisler" ToRole="tblUyeler" />
+  </EntityType>
+  <EntityType Name="tblSubCategory">
+    <Key>
+      <PropertyRef Name="SubCategoryID" />
+    </Key>
+    <Property Type="Int32" Name="SubCategoryID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="SubCategoryName" Nullable="false" MaxLength="70" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="CategoryID" Nullable="false" />
+    <Property Type="Boolean" Name="ISACTIVE" Nullable="false" />
+    <Property Type="Boolean" Name="ISDELETED" Nullable="false" />
+    <Property Type="DateTime" Name="ISCREDATE" Nullable="false" />
+    <Property Type="DateTime" Name="ISMODDATE" Nullable="false" />
+    <Property Type="Int32" Name="ISCREUSERID" Nullable="false" />
+    <Property Type="Int32" Name="ISMODUSERID" Nullable="false" />
+    <NavigationProperty Name="tblProduct" Relationship="SatisModel.FK_tblProduct_tblSubCategory" FromRole="tblSubCategory" ToRole="tblProduct" />
+    <NavigationProperty Name="tblCategory" Relationship="SatisModel.FK_tblSubCategory_tblCategory" FromRole="tblSubCategory" ToRole="tblCategory" />
+  </EntityType>
+  <EntityType Name="tblUyeIletisim">
+    <Key>
+      <PropertyRef Name="IletisimID" />
+    </Key>
+    <Property Type="Int32" Name="IletisimID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="UyeID" Nullable="false" />
+    <Property Type="String" Name="Telefon" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Adres" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Il" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Ilce" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="AdresAdi" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="ISACTIVE" />
+    <Property Type="Boolean" Name="ISDELETED" />
+    <Property Type="DateTime" Name="ISCREDATE" />
+    <Property Type="DateTime" Name="ISMODDATE" />
+    <Property Type="Int32" Name="CreUSERID" />
+    <NavigationProperty Name="tblUyeler" Relationship="SatisModel.FK_tblUyeIletisim_tblUyeler" FromRole="tblUyeIletisim" ToRole="tblUyeler" />
+  </EntityType>
+  <EntityType Name="tblUyeler">
+    <Key>
+      <PropertyRef Name="UyeID" />
+    </Key>
+    <Property Type="Int32" Name="UyeID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="UyeTipID" Nullable="false" />
+    <Property Type="String" Name="UyeAdi" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="UyeMail" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="UyeTel" Nullable="false" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="UyeCinsiyeti" MaxLength="1" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="UyeSifresi" Nullable="false" MaxLength="70" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="UyeDogTarihi" />
+    <Property Type="String" Name="UyeAdresi" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="AdresIl" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="AdresIlce" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="ISACTIVE" />
+    <Property Type="Boolean" Name="ISDELETED" />
+    <Property Type="DateTime" Name="ISCREDATE" />
+    <Property Type="DateTime" Name="ISMODDATE" />
+    <Property Type="String" Name="Aktivasyon" MaxLength="20" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="tblProductComment" Relationship="SatisModel.FK_tblProductComment_tblUyeler" FromRole="tblUyeler" ToRole="tblProductComment" />
+    <NavigationProperty Name="tblSiparisler" Relationship="SatisModel.FK_tblSiparisler_tblUyeler" FromRole="tblUyeler" ToRole="tblSiparisler" />
+    <NavigationProperty Name="tblUyeIletisim" Relationship="SatisModel.FK_tblUyeIletisim_tblUyeler" FromRole="tblUyeler" ToRole="tblUyeIletisim" />
+    <NavigationProperty Name="tblUyeTipleri" Relationship="SatisModel.FK_tblUyeler_tblUyeTipleri" FromRole="tblUyeler" ToRole="tblUyeTipleri" />
+    <NavigationProperty Name="tblSepet" Relationship="SatisModel.FK_tblSepet_tblUyeler" FromRole="tblUyeler" ToRole="tblSepet" />
+  </EntityType>
+  <EntityType Name="tblUyeTipleri">
+    <Key>
+      <PropertyRef Name="UyeTipID" />
+    </Key>
+    <Property Type="Int32" Name="UyeTipID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="UyeTipAdi" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="ISACTIVE" />
+    <Property Type="Boolean" Name="ISDELETED" />
+    <Property Type="DateTime" Name="ISCREDATE" />
+    <Property Type="DateTime" Name="ISMODDATE" />
+    <Property Type="Int32" Name="CreUSERID" />
+    <NavigationProperty Name="tblUyeler" Relationship="SatisModel.FK_tblUyeler_tblUyeTipleri" FromRole="tblUyeTipleri" ToRole="tblUyeler" />
+  </EntityType>
+  <Association Name="FK_tblProduct_tblSubCategory">
+    <End Type="SatisModel.tblSubCategory" Role="tblSubCategory" Multiplicity="1" />
+    <End Type="SatisModel.tblProduct" Role="tblProduct" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblSubCategory">
+        <PropertyRef Name="SubCategoryID" />
+      </Principal>
+      <Dependent Role="tblProduct">
+        <PropertyRef Name="SubCategoryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblProductComment_tblProduct">
+    <End Type="SatisModel.tblProduct" Role="tblProduct" Multiplicity="1" />
+    <End Type="SatisModel.tblProductComment" Role="tblProductComment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblProduct">
+        <PropertyRef Name="ProductID" />
+      </Principal>
+      <Dependent Role="tblProductComment">
+        <PropertyRef Name="ProductID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblSiparisDetaylari_tblProduct">
+    <End Type="SatisModel.tblProduct" Role="tblProduct" Multiplicity="1" />
+    <End Type="SatisModel.tblSiparisDetaylari" Role="tblSiparisDetaylari" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblProduct">
+        <PropertyRef Name="ProductID" />
+      </Principal>
+      <Dependent Role="tblSiparisDetaylari">
+        <PropertyRef Name="ProductID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblProductComment_tblUyeler">
+    <End Type="SatisModel.tblUyeler" Role="tblUyeler" Multiplicity="1" />
+    <End Type="SatisModel.tblProductComment" Role="tblProductComment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblUyeler">
+        <PropertyRef Name="UyeID" />
+      </Principal>
+      <Dependent Role="tblProductComment">
+        <PropertyRef Name="UyeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblSiparisDetaylari_tblSiparisler">
+    <End Type="SatisModel.tblSiparisler" Role="tblSiparisler" Multiplicity="1" />
+    <End Type="SatisModel.tblSiparisDetaylari" Role="tblSiparisDetaylari" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblSiparisler">
+        <PropertyRef Name="SiparisID" />
+      </Principal>
+      <Dependent Role="tblSiparisDetaylari">
+        <PropertyRef Name="SiparisID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblSiparisler_tblSiparisDurumlari">
+    <End Type="SatisModel.tblSiparisDurumlari" Role="tblSiparisDurumlari" Multiplicity="1" />
+    <End Type="SatisModel.tblSiparisler" Role="tblSiparisler" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblSiparisDurumlari">
+        <PropertyRef Name="DurumID" />
+      </Principal>
+      <Dependent Role="tblSiparisler">
+        <PropertyRef Name="DurumID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblSiparisler_tblUyeler">
+    <End Type="SatisModel.tblUyeler" Role="tblUyeler" Multiplicity="1" />
+    <End Type="SatisModel.tblSiparisler" Role="tblSiparisler" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblUyeler">
+        <PropertyRef Name="UyeID" />
+      </Principal>
+      <Dependent Role="tblSiparisler">
+        <PropertyRef Name="UyeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblUyeIletisim_tblUyeler">
+    <End Type="SatisModel.tblUyeler" Role="tblUyeler" Multiplicity="1" />
+    <End Type="SatisModel.tblUyeIletisim" Role="tblUyeIletisim" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblUyeler">
+        <PropertyRef Name="UyeID" />
+      </Principal>
+      <Dependent Role="tblUyeIletisim">
+        <PropertyRef Name="UyeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblUyeler_tblUyeTipleri">
+    <End Type="SatisModel.tblUyeTipleri" Role="tblUyeTipleri" Multiplicity="1" />
+    <End Type="SatisModel.tblUyeler" Role="tblUyeler" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblUyeTipleri">
+        <PropertyRef Name="UyeTipID" />
+      </Principal>
+      <Dependent Role="tblUyeler">
+        <PropertyRef Name="UyeTipID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="tblCategory">
+    <Key>
+      <PropertyRef Name="CategoryID" />
+    </Key>
+    <Property Type="Int32" Name="CategoryID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="CategoryName" Nullable="false" MaxLength="70" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="ISACTIVE" Nullable="false" />
+    <Property Type="Boolean" Name="ISDELETED" Nullable="false" />
+    <Property Type="DateTime" Name="ISCREDATE" Nullable="false" />
+    <Property Type="DateTime" Name="ISMODDATE" Nullable="false" />
+    <Property Type="Int32" Name="ISCREUSERID" Nullable="false" />
+    <Property Type="Int32" Name="ISMODUSERID" Nullable="false" />
+    <NavigationProperty Name="tblSubCategory" Relationship="SatisModel.FK_tblSubCategory_tblCategory" FromRole="tblCategory" ToRole="tblSubCategory" />
+  </EntityType>
+  <Association Name="FK_tblSubCategory_tblCategory">
+    <End Type="SatisModel.tblCategory" Role="tblCategory" Multiplicity="1" />
+    <End Type="SatisModel.tblSubCategory" Role="tblSubCategory" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblCategory">
+        <PropertyRef Name="CategoryID" />
+      </Principal>
+      <Dependent Role="tblSubCategory">
+        <PropertyRef Name="CategoryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="tblSepet">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="ProductID" Nullable="false" />
+    <Property Type="Int32" Name="UyeID" Nullable="false" />
+    <Property Type="Int32" Name="Adet" Nullable="false" />
+    <Property Type="Boolean" Name="ISACTIVE" Nullable="false" />
+    <Property Type="Boolean" Name="ISDELETED" Nullable="false" />
+    <Property Type="DateTime" Name="ISCREDATE" Nullable="false" />
+    <Property Type="String" Name="AlimDetayi" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Decimal" Name="Tutar" Precision="8" Scale="2" />
+    <NavigationProperty Name="tblProduct" Relationship="SatisModel.FK_tblSepet_tblProduct" FromRole="tblSepet" ToRole="tblProduct" />
+    <NavigationProperty Name="tblUyeler" Relationship="SatisModel.FK_tblSepet_tblUyeler" FromRole="tblSepet" ToRole="tblUyeler" />
+  </EntityType>
+  <Association Name="FK_tblSepet_tblProduct">
+    <End Type="SatisModel.tblProduct" Role="tblProduct" Multiplicity="1" />
+    <End Type="SatisModel.tblSepet" Role="tblSepet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblProduct">
+        <PropertyRef Name="ProductID" />
+      </Principal>
+      <Dependent Role="tblSepet">
+        <PropertyRef Name="ProductID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblSepet_tblUyeler">
+    <End Type="SatisModel.tblUyeler" Role="tblUyeler" Multiplicity="1" />
+    <End Type="SatisModel.tblSepet" Role="tblSepet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblUyeler">
+        <PropertyRef Name="UyeID" />
+      </Principal>
+      <Dependent Role="tblSepet">
+        <PropertyRef Name="UyeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="tblPicture">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="ProductID" Nullable="false" />
+    <Property Type="String" Name="Picture1" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="thumbsPicture1" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="ISACTIVE" Nullable="false" />
+    <Property Type="Boolean" Name="ISDELETED" Nullable="false" />
+    <Property Type="DateTime" Name="ISCREDATE" Nullable="false" />
+    <Property Type="DateTime" Name="ISMODDATE" Nullable="false" />
+    <Property Type="Int32" Name="ISCREUSERID" Nullable="false" />
+    <Property Type="Int32" Name="ISMODUSERID" Nullable="false" />
+    <NavigationProperty Name="tblProduct" Relationship="SatisModel.FK_tblPicture_tblProduct" FromRole="tblPicture" ToRole="tblProduct" />
+  </EntityType>
+  <Association Name="FK_tblPicture_tblProduct">
+    <End Type="SatisModel.tblProduct" Role="tblProduct" Multiplicity="1" />
+    <End Type="SatisModel.tblPicture" Role="tblPicture" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblProduct">
+        <PropertyRef Name="ProductID" />
+      </Principal>
+      <Dependent Role="tblPicture">
+        <PropertyRef Name="ProductID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

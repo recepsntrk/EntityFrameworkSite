@@ -1,0 +1,946 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{91720F4F-054A-46A3-9914-07350BF17184}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Satis.web</RootNamespace>
+    <AssemblyName>Satis.web</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=4.1.60919.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="abPopup\css\abPopup.css" />
+    <Content Include="abPopup\js\abPopup.js" />
+    <Content Include="abPopup\js\jquery.lastest.min.js" />
+    <Content Include="abPopup\resim\alt.png" />
+    <Content Include="abPopup\resim\aycan.jpg" />
+    <Content Include="abPopup\resim\kapat.png" />
+    <Content Include="abPopup\resim\kapat2.png" />
+    <Content Include="abPopup\resim\orta.png" />
+    <Content Include="abPopup\resim\tiff\alt.tif" />
+    <Content Include="abPopup\resim\tiff\kapat.tif" />
+    <Content Include="abPopup\resim\tiff\kapat2.tif" />
+    <Content Include="abPopup\resim\tiff\orta.tif" />
+    <Content Include="abPopup\resim\tiff\popup.tif" />
+    <Content Include="abPopup\resim\tiff\ust.tif" />
+    <Content Include="abPopup\resim\ust.png" />
+    <Content Include="Accordion\css\style.css" />
+    <Content Include="Accordion\images\b.png" />
+    <Content Include="Accordion\images\bg-body.gif" />
+    <Content Include="Accordion\images\bg-button-green.gif" />
+    <Content Include="Accordion\images\bg-content-box.gif" />
+    <Content Include="Accordion\images\bg-form-field.gif" />
+    <Content Include="Accordion\images\bg-login-top.png" />
+    <Content Include="Accordion\images\bg-login.gif" />
+    <Content Include="Accordion\images\bg-menu-item-current.gif" />
+    <Content Include="Accordion\images\bg-menu-item-green.gif" />
+    <Content Include="Accordion\images\bg-menu-item-green.png" />
+    <Content Include="Accordion\images\bg-radial-gradient.gif" />
+    <Content Include="Accordion\images\bg-sidebar.gif" />
+    <Content Include="Accordion\images\bl.png" />
+    <Content Include="Accordion\images\br.png" />
+    <Content Include="Accordion\images\closelabel.gif" />
+    <Content Include="Accordion\images\icons\bullet_black.png" />
+    <Content Include="Accordion\images\icons\clock_48.png" />
+    <Content Include="Accordion\images\icons\comment_48.png" />
+    <Content Include="Accordion\images\icons\cross.png" />
+    <Content Include="Accordion\images\icons\cross_circle.png" />
+    <Content Include="Accordion\images\icons\cross_grey_small.png" />
+    <Content Include="Accordion\images\icons\exclamation.png" />
+    <Content Include="Accordion\images\icons\hammer_screwdriver.png" />
+    <Content Include="Accordion\images\icons\image_add_48.png" />
+    <Content Include="Accordion\images\icons\information.png" />
+    <Content Include="Accordion\images\icons\jquery.wysiwyg.gif" />
+    <Content Include="Accordion\images\icons\paper_content_pencil_48.png" />
+    <Content Include="Accordion\images\icons\pencil.png" />
+    <Content Include="Accordion\images\icons\pencil_48.png" />
+    <Content Include="Accordion\images\icons\tick_circle.png" />
+    <Content Include="Accordion\images\logo.png" />
+    <Content Include="Accordion\images\menu-current-arrow.gif" />
+    <Content Include="Accordion\images\shortcut-button-bg.gif" />
+    <Content Include="Accordion\images\tl.png" />
+    <Content Include="Accordion\images\tr.png" />
+    <Content Include="Accordion\scripts\jquery-1.3.2.min.js" />
+    <Content Include="Accordion\scripts\simpla.jquery.configuration.js" />
+    <Content Include="Admin\Default.aspx" />
+    <Content Include="Admin\Product\CategoryList.aspx" />
+    <Content Include="Admin\Product\ProductAdd.aspx" />
+    <Content Include="Admin\Product\ProductList.aspx" />
+    <Content Include="Admin\Product\SubcategorysList.aspx" />
+    <Content Include="Admin\Product\Update.aspx" />
+    <Content Include="Admin\Siparis\Sepet.aspx" />
+    <Content Include="Admin\Siparis\SiparisDetayList.aspx" />
+    <Content Include="Admin\Siparis\SiparisListele.aspx" />
+    <Content Include="Admin\Style\calendar.css" />
+    <Content Include="Admin\Style\divler.css" />
+    <Content Include="Admin\User\UserList.aspx" />
+    <Content Include="BizeUlas.aspx" />
+    <Content Include="CategorysProductList.aspx" />
+    <Content Include="Davetiye.aspx" />
+    <Content Include="DavetiyeList.aspx" />
+    <Content Include="DavetiyeSozleri.aspx" />
+    <Content Include="Davetiye\style\styles.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Deneme.aspx" />
+    <Content Include="denemes.aspx" />
+    <Content Include="facebox\b.png" />
+    <Content Include="facebox\bl.png" />
+    <Content Include="facebox\br.png" />
+    <Content Include="facebox\closelabel.gif" />
+    <Content Include="facebox\facebox.css" />
+    <Content Include="facebox\facebox.js" />
+    <Content Include="facebox\jquery-1.2.6.pack.js" />
+    <Content Include="facebox\loading.gif" />
+    <Content Include="facebox\tl.png" />
+    <Content Include="facebox\tr.png" />
+    <Content Include="Firsatlar.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Hakkimizda.aspx" />
+    <Content Include="Hesabim.aspx" />
+    <Content Include="Iletisim.aspx" />
+    <Content Include="Images\Background\adin.jpg" />
+    <Content Include="Images\Background\gull.gif" />
+    <Content Include="Images\Background\gull.png" />
+    <Content Include="Images\Background\harita.JPG" />
+    <Content Include="Images\Background\logo.jpg" />
+    <Content Include="Images\Background\white_background.jpg" />
+    <Content Include="Images\Background\Black-Background.jpg" />
+    <Content Include="Images\Button\ajax-loader-back.gif" />
+    <Content Include="Images\Button\ajax-loader-trans.gif" />
+    <Content Include="Images\Button\Arrow-Down.png" />
+    <Content Include="Images\Button\DAVETİYE SÖZLERİ-205x70.png" />
+    <Content Include="Images\Button\facebook.png" />
+    <Content Include="Images\Button\next.png" />
+    <Content Include="Images\Button\password.png" />
+    <Content Include="Images\Button\previous.png" />
+    <Content Include="Images\Button\rss.png" />
+    <Content Include="Images\Button\search-bg.gif" />
+    <Content Include="Images\Button\side.png" />
+    <Content Include="Images\Button\twitter.png" />
+    <Content Include="Images\Button\username.png" />
+    <Content Include="Images\Button\yapim_asamasinda.jpg" />
+    <Content Include="Images\Button\yeni.png" />
+    <Content Include="Images\Button\Search.png" />
+    <Content Include="Images\Button\close.png" />
+    <Content Include="Images\Katalog\erdem_davetiye_2012.png" />
+    <Content Include="Images\Katalog\erdem_sunnet.png" />
+    <Content Include="Images\Katalog\kristal_davetiye.png" />
+    <Content Include="Images\Products\IMG_1016.JPG" />
+    <Content Include="Images\Products\IMG_1019.JPG" />
+    <Content Include="Images\Products\IMG_1020.JPG" />
+    <Content Include="Images\Products\IMG_1021.JPG" />
+    <Content Include="Images\Products\IMG_1022.JPG" />
+    <Content Include="Images\Products\IMG_1023.JPG" />
+    <Content Include="Images\Products\IMG_1024.JPG" />
+    <Content Include="Images\Products\IMG_1025.JPG" />
+    <Content Include="Images\Products\IMG_1026.JPG" />
+    <Content Include="Images\Products\IMG_1027.JPG" />
+    <Content Include="Images\Products\IMG_1028.JPG" />
+    <Content Include="Images\Products\IMG_1029.JPG" />
+    <Content Include="Images\Products\IMG_1030.JPG" />
+    <Content Include="Images\Products\IMG_1031.JPG" />
+    <Content Include="Images\Products\IMG_1032.JPG" />
+    <Content Include="Images\Products\IMG_1033.JPG" />
+    <Content Include="Images\Products\IMG_1034.JPG" />
+    <Content Include="Images\Products\IMG_1035.JPG" />
+    <Content Include="Images\Products\IMG_1036.JPG" />
+    <Content Include="Images\Products\IMG_1037.JPG" />
+    <Content Include="Images\Products\IMG_1038.JPG" />
+    <Content Include="Images\Products\IMG_1039.JPG" />
+    <Content Include="Images\Products\IMG_1040.JPG" />
+    <Content Include="Images\Products\IMG_1041.JPG" />
+    <Content Include="Images\Products\IMG_1042.JPG" />
+    <Content Include="Images\Products\IMG_1043.JPG" />
+    <Content Include="Images\Products\IMG_1044.JPG" />
+    <Content Include="Images\Products\IMG_1045.JPG" />
+    <Content Include="Images\Products\IMG_1046.JPG" />
+    <Content Include="Images\Products\IMG_1047.JPG" />
+    <Content Include="Images\Products\IMG_1048.JPG" />
+    <Content Include="Images\Products\IMG_1049.JPG" />
+    <Content Include="Images\Products\IMG_1050.JPG" />
+    <Content Include="Images\Products\IMG_1051.JPG" />
+    <Content Include="Images\Products\IMG_1052.JPG" />
+    <Content Include="Images\Products\IMG_1053.JPG" />
+    <Content Include="Images\Products\IMG_1054.JPG" />
+    <Content Include="Images\Products\IMG_1055.JPG" />
+    <Content Include="Images\Products\IMG_1056.JPG" />
+    <Content Include="Images\Products\IMG_1057.JPG" />
+    <Content Include="Images\Products\IMG_1058.JPG" />
+    <Content Include="Images\Products\IMG_1059.JPG" />
+    <Content Include="Images\Products\IMG_1060.JPG" />
+    <Content Include="Images\Products\IMG_1061.JPG" />
+    <Content Include="Images\Products\IMG_1062.JPG" />
+    <Content Include="Images\Products\IMG_1063.JPG" />
+    <Content Include="Images\Products\IMG_1064.JPG" />
+    <Content Include="Images\Products\IMG_1065.JPG" />
+    <Content Include="Images\Products\IMG_1069.JPG" />
+    <Content Include="Images\Products\IMG_1070.JPG" />
+    <Content Include="Images\Products\IMG_1071.JPG" />
+    <Content Include="Images\Products\IMG_1072.JPG" />
+    <Content Include="Images\Products\IMG_1073.JPG" />
+    <Content Include="Images\Products\IMG_1074.JPG" />
+    <Content Include="Images\Products\IMG_1075.JPG" />
+    <Content Include="Images\Products\IMG_1076.JPG" />
+    <Content Include="Images\Products\IMG_1077.JPG" />
+    <Content Include="Images\Products\IMG_1078.JPG" />
+    <Content Include="Images\Products\IMG_1080.JPG" />
+    <Content Include="Images\Products\IMG_1081.JPG" />
+    <Content Include="Images\Products\IMG_1082.JPG" />
+    <Content Include="Images\Products\IMG_1083.JPG" />
+    <Content Include="Images\Products\IMG_1085.JPG" />
+    <Content Include="Images\Products\IMG_1086.JPG" />
+    <Content Include="Images\Products\IMG_1087.JPG" />
+    <Content Include="Images\Products\IMG_1088.JPG" />
+    <Content Include="Images\Products\IMG_1091.JPG" />
+    <Content Include="Images\Products\IMG_1092.JPG" />
+    <Content Include="Images\Products\IMG_1093.JPG" />
+    <Content Include="Images\Products\IMG_1095.JPG" />
+    <Content Include="Images\Products\IMG_1097.JPG" />
+    <Content Include="Images\Products\IMG_1098.JPG" />
+    <Content Include="Images\Products\IMG_1099.JPG" />
+    <Content Include="Images\Products\IMG_1100.JPG" />
+    <Content Include="Images\Products\IMG_1101.JPG" />
+    <Content Include="Images\Products\IMG_1102.JPG" />
+    <Content Include="Images\Products\IMG_1103.JPG" />
+    <Content Include="Images\Products\IMG_1104.JPG" />
+    <Content Include="Images\Products\IMG_1105.JPG" />
+    <Content Include="Images\Products\IMG_1106.JPG" />
+    <Content Include="Images\Products\IMG_1107.JPG" />
+    <Content Include="Images\Products\IMG_1108.JPG" />
+    <Content Include="Images\Products\IMG_1109.JPG" />
+    <Content Include="Images\Products\IMG_1110.JPG" />
+    <Content Include="Images\Products\IMG_1111.JPG" />
+    <Content Include="Images\Products\IMG_1112.JPG" />
+    <Content Include="Images\Products\IMG_1113.JPG" />
+    <Content Include="Images\Products\IMG_1114.JPG" />
+    <Content Include="Images\Products\IMG_1115.JPG" />
+    <Content Include="Images\Products\IMG_1116.JPG" />
+    <Content Include="Images\Products\IMG_1118.JPG" />
+    <Content Include="Images\Products\IMG_1119.JPG" />
+    <Content Include="Images\Products\IMG_1121.JPG" />
+    <Content Include="Images\Products\IMG_1122.JPG" />
+    <Content Include="Images\Products\IMG_1123.JPG" />
+    <Content Include="Images\Products\IMG_1124.JPG" />
+    <Content Include="Images\Products\IMG_1125.JPG" />
+    <Content Include="Images\Products\IMG_1126.JPG" />
+    <Content Include="Images\Products\IMG_1127.JPG" />
+    <Content Include="Images\Products\IMG_1128.JPG" />
+    <Content Include="Images\Products\IMG_1129.JPG" />
+    <Content Include="Images\Products\IMG_1130.JPG" />
+    <Content Include="Images\Products\IMG_1131.JPG" />
+    <Content Include="Images\Products\IMG_1132.JPG" />
+    <Content Include="Images\Products\IMG_1133.JPG" />
+    <Content Include="Images\Products\IMG_1134.JPG" />
+    <Content Include="Images\Products\IMG_1135.JPG" />
+    <Content Include="Images\Products\IMG_1136.JPG" />
+    <Content Include="Images\Products\IMG_1137.JPG" />
+    <Content Include="Images\Products\IMG_1139.JPG" />
+    <Content Include="Images\Products\IMG_1140.JPG" />
+    <Content Include="Images\Products\IMG_1142.JPG" />
+    <Content Include="Images\Products\IMG_1143.JPG" />
+    <Content Include="Images\Products\IMG_1146.JPG" />
+    <Content Include="Images\Products\IMG_1148.JPG" />
+    <Content Include="Images\Products\IMG_1149.JPG" />
+    <Content Include="Images\Products\IMG_1153.JPG" />
+    <Content Include="Images\Products\IMG_1154.JPG" />
+    <Content Include="Images\Products\IMG_1155.JPG" />
+    <Content Include="Images\Products\IMG_1156.JPG" />
+    <Content Include="Images\Products\IMG_1158.JPG" />
+    <Content Include="Images\Products\IMG_1159.JPG" />
+    <Content Include="Images\Products\IMG_1160.JPG" />
+    <Content Include="Images\Products\IMG_1164.JPG" />
+    <Content Include="Images\Products\IMG_1165.JPG" />
+    <Content Include="Images\Products\IMG_1166.JPG" />
+    <Content Include="Images\Products\IMG_1167.JPG" />
+    <Content Include="Images\Products\IMG_1168.JPG" />
+    <Content Include="Images\Products\IMG_1170.JPG" />
+    <Content Include="Images\Products\IMG_1174.JPG" />
+    <Content Include="Images\Products\IMG_1175.JPG" />
+    <Content Include="Images\Products\IMG_1176.JPG" />
+    <Content Include="Images\Products\IMG_1177.JPG" />
+    <Content Include="Images\Products\IMG_1178.JPG" />
+    <Content Include="Images\Products\IMG_1179.JPG" />
+    <Content Include="Images\Products\IMG_1180.JPG" />
+    <Content Include="Images\Products\IMG_1181.JPG" />
+    <Content Include="Images\Products\IMG_1182.JPG" />
+    <Content Include="Images\Products\IMG_1183.JPG" />
+    <Content Include="Images\Products\IMG_1184.JPG" />
+    <Content Include="Images\Products\IMG_1185.JPG" />
+    <Content Include="Images\Products\IMG_1186.JPG" />
+    <Content Include="Images\Products\IMG_1187.JPG" />
+    <Content Include="Images\Products\IMG_1188.JPG" />
+    <Content Include="Images\Products\IMG_1189.JPG" />
+    <Content Include="Images\Products\IMG_1190.JPG" />
+    <Content Include="Images\Products\IMG_1191.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1016.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1019.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1020.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1021.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1022.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1023.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1024.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1025.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1026.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1027.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1028.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1029.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1030.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1031.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1032.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1033.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1034.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1035.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1036.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1037.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1038.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1039.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1040.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1041.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1042.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1043.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1044.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1045.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1046.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1047.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1048.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1049.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1050.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1051.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1052.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1053.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1054.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1055.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1056.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1057.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1058.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1059.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1060.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1061.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1062.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1063.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1064.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1065.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1069.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1070.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1071.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1072.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1073.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1074.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1075.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1076.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1077.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1078.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1080.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1081.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1082.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1083.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1085.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1086.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1087.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1088.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1091.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1092.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1093.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1095.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1097.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1098.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1099.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1100.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1101.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1102.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1103.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1104.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1105.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1106.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1107.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1108.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1109.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1110.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1111.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1112.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1113.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1114.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1115.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1116.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1118.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1119.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1121.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1122.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1123.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1124.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1125.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1126.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1127.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1128.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1129.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1130.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1131.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1132.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1133.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1134.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1135.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1136.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1137.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1138.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1139.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1140.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1142.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1143.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1146.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1148.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1149.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1153.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1154.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1155.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1156.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1158.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1159.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1160.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1164.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1165.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1166.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1167.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1168.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1170.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1174.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1175.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1176.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1177.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1178.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1179.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1180.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1181.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1182.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1183.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1184.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1185.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1186.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1187.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1188.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1189.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1190.JPG" />
+    <Content Include="Images\Products\Thumbs\IMG_1191.JPG" />
+    <Content Include="Images\Slider\img1.jpg" />
+    <Content Include="Images\Slider\img2.jpg" />
+    <Content Include="Images\Slider\img3.jpg" />
+    <Content Include="Images\Slider\img4.jpg" />
+    <Content Include="Images\Slider\img5.jpg" />
+    <Content Include="Images\Slider\img6.jpg" />
+    <Content Include="Images\Slider\img7.JPG" />
+    <Content Include="Images\Slider\img8.jpg" />
+    <Content Include="Images\Slider\slider2-image-1.jpg" />
+    <Content Include="Images\Slider\slider2-image-2.jpg" />
+    <Content Include="Images\Slider\slider2-image-3.jpg" />
+    <Content Include="Information.aspx" />
+    <Content Include="magicscroll\graphics\arrows-big.png" />
+    <Content Include="magicscroll\graphics\arrows-padding.png" />
+    <Content Include="magicscroll\graphics\arrows-small.png" />
+    <Content Include="magicscroll\graphics\arrows.png" />
+    <Content Include="magicscroll\magicscroll.css" />
+    <Content Include="magicscroll\magicscroll.js" />
+    <Content Include="magiczoomplus\graphics\buttons1-big.png" />
+    <Content Include="magiczoomplus\graphics\buttons1-small.png" />
+    <Content Include="magiczoomplus\graphics\buttons1.png" />
+    <Content Include="magiczoomplus\graphics\buttons2-big.png" />
+    <Content Include="magiczoomplus\graphics\buttons2-small.png" />
+    <Content Include="magiczoomplus\graphics\buttons2.png" />
+    <Content Include="magiczoomplus\graphics\buttons3-big.png" />
+    <Content Include="magiczoomplus\graphics\buttons3-small.png" />
+    <Content Include="magiczoomplus\graphics\buttons3.png" />
+    <Content Include="magiczoomplus\graphics\buttons4-big.png" />
+    <Content Include="magiczoomplus\graphics\buttons4-small.png" />
+    <Content Include="magiczoomplus\graphics\buttons4.png" />
+    <Content Include="magiczoomplus\graphics\buttons5-big.png" />
+    <Content Include="magiczoomplus\graphics\buttons5-small.png" />
+    <Content Include="magiczoomplus\graphics\buttons5.png" />
+    <Content Include="magiczoomplus\graphics\buttons6-big.png" />
+    <Content Include="magiczoomplus\graphics\buttons6-small.png" />
+    <Content Include="magiczoomplus\graphics\buttons6.png" />
+    <Content Include="magiczoomplus\graphics\buttons7-big.png" />
+    <Content Include="magiczoomplus\graphics\buttons7-small.png" />
+    <Content Include="magiczoomplus\graphics\buttons7.png" />
+    <Content Include="magiczoomplus\graphics\hint.gif" />
+    <Content Include="magiczoomplus\graphics\loader.gif" />
+    <Content Include="magiczoomplus\graphics\zoomin.cur" />
+    <Content Include="magiczoomplus\graphics\zoomin2.cur" />
+    <Content Include="magiczoomplus\graphics\zoomout.cur" />
+    <Content Include="magiczoomplus\graphics\zoomout2.cur" />
+    <Content Include="magiczoomplus\magiczoomplus.css" />
+    <Content Include="magiczoomplus\magiczoomplus.js" />
+    <Content Include="notifysepet.aspx" />
+    <Content Include="parallax\css\style.css" />
+    <Content Include="parallax\images\ajax-loader.gif" />
+    <Content Include="parallax\images\next.png" />
+    <Content Include="parallax\images\prev.png" />
+    <Content Include="parallax\js\ChunkFive_400.font.js" />
+    <Content Include="parallax\js\cufon-yui.js" />
+    <Content Include="parallax\js\jquery-1.8.2.min.js" />
+    <Content Include="parallax\js\jquery.easing.1.3.js" />
+    <Content Include="parallax\js\jquery.min.js" />
+    <Content Include="ProductDetails.aspx" />
+    <Content Include="Scripts\jquery-1.8.2.min.js" />
+    <Content Include="Sepet.aspx" />
+    <Content Include="Siparis.aspx" />
+    <Content Include="SiparisDetayi.aspx" />
+    <Content Include="Skitter\css\skitter.styles.css" />
+    <Content Include="Skitter\images\ajax-loader.gif" />
+    <Content Include="Skitter\images\back-box-label-black.png" />
+    <Content Include="Skitter\images\background.gif" />
+    <Content Include="Skitter\images\donate-button.png" />
+    <Content Include="Skitter\images\download-button.png" />
+    <Content Include="Skitter\images\download-helper.png" />
+    <Content Include="Skitter\images\download-wp.png" />
+    <Content Include="Skitter\images\favicon.ico" />
+    <Content Include="Skitter\images\focus-button.png" />
+    <Content Include="Skitter\images\logo-thiago.png" />
+    <Content Include="Skitter\images\logo.gif" />
+    <Content Include="Skitter\images\logo.png" />
+    <Content Include="Skitter\images\next.png" />
+    <Content Include="Skitter\images\pause-button.png" />
+    <Content Include="Skitter\images\play-button.png" />
+    <Content Include="Skitter\images\prev.png" />
+    <Content Include="Skitter\images\sexy-sprite.png" />
+    <Content Include="Skitter\images\sharing-caring.png" />
+    <Content Include="Skitter\images\this-is-a-free-plugin.png" />
+    <Content Include="Skitter\js\highlight.js" />
+    <Content Include="Skitter\js\jquery.animate-colors-min.js" />
+    <Content Include="Skitter\js\jquery.easing.1.3.js" />
+    <Content Include="Skitter\js\jquery.skitter.js" />
+    <Content Include="Skitter\js\jquery.skitter.min.js" />
+    <Content Include="SpryAssets\SpryMenuBar.js" />
+    <Content Include="SpryAssets\SpryMenuBarDown.gif" />
+    <Content Include="SpryAssets\SpryMenuBarDownHover.gif" />
+    <Content Include="SpryAssets\SpryMenuBarHorizontal.css" />
+    <Content Include="SpryAssets\SpryMenuBarRight.gif" />
+    <Content Include="SpryAssets\SpryMenuBarRightHover.gif" />
+    <Content Include="SpryAssets\SpryMenuBarVertical.css" />
+    <Content Include="Style\davetiye.css" />
+    <Content Include="Misyon.aspx" />
+    <Content Include="SifreHatirlat.aspx" />
+    <Content Include="Sorular.aspx" />
+    <Content Include="Style\Pencere.css" />
+    <Content Include="Style\Styles.css" />
+    <Content Include="SubCategorysProductList.aspx" />
+    <Content Include="UyeOl.aspx" />
+    <Content Include="Vizyon.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="wingtheair.aspx" />
+    <Content Include="wingtheair\css\images\border.gif" />
+    <Content Include="wingtheair\css\images\cart-price.gif" />
+    <Content Include="wingtheair\css\images\cart.gif" />
+    <Content Include="wingtheair\css\images\container-t.gif" />
+    <Content Include="wingtheair\css\images\field.gif" />
+    <Content Include="wingtheair\css\images\image1.jpg" />
+    <Content Include="wingtheair\css\images\image2.jpg" />
+    <Content Include="wingtheair\css\images\image3.jpg" />
+    <Content Include="wingtheair\css\images\image4.jpg" />
+    <Content Include="wingtheair\css\images\logo.gif" />
+    <Content Include="wingtheair\css\images\logo1.gif" />
+    <Content Include="wingtheair\css\images\logo2.gif" />
+    <Content Include="wingtheair\css\images\logo3.gif" />
+    <Content Include="wingtheair\css\images\logo4.gif" />
+    <Content Include="wingtheair\css\images\logo5.gif" />
+    <Content Include="wingtheair\css\images\main.gif" />
+    <Content Include="wingtheair\css\images\next.gif" />
+    <Content Include="wingtheair\css\images\prev.gif" />
+    <Content Include="wingtheair\css\images\search.gif" />
+    <Content Include="wingtheair\css\images\slide1.jpg" />
+    <Content Include="wingtheair\css\images\slide2.jpg" />
+    <Content Include="wingtheair\css\images\tab.gif" />
+    <Content Include="wingtheair\css\style.css" />
+    <Content Include="wingtheair\js\jquery-1.4.1.min.js" />
+    <Content Include="wingtheair\js\jquery-func.js" />
+    <Content Include="wingtheair\js\jquery.jcarousel.pack.js" />
+    <Content Include="wingtheair\js\jquery.slide.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\AdminSite.Master.cs">
+      <DependentUpon>AdminSite.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminSite.Master.designer.cs">
+      <DependentUpon>AdminSite.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Product\CategoryList.aspx.cs">
+      <DependentUpon>CategoryList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Product\CategoryList.aspx.designer.cs">
+      <DependentUpon>CategoryList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Product\ProductAdd.aspx.cs">
+      <DependentUpon>ProductAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Product\ProductAdd.aspx.designer.cs">
+      <DependentUpon>ProductAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Product\ProductList.aspx.cs">
+      <DependentUpon>ProductList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Product\ProductList.aspx.designer.cs">
+      <DependentUpon>ProductList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Product\SubcategorysList.aspx.cs">
+      <DependentUpon>SubcategorysList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Product\SubcategorysList.aspx.designer.cs">
+      <DependentUpon>SubcategorysList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Product\Update.aspx.cs">
+      <DependentUpon>Update.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Product\Update.aspx.designer.cs">
+      <DependentUpon>Update.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Siparis\Sepet.aspx.cs">
+      <DependentUpon>Sepet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Siparis\Sepet.aspx.designer.cs">
+      <DependentUpon>Sepet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Siparis\SiparisDetayList.aspx.cs">
+      <DependentUpon>SiparisDetayList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Siparis\SiparisDetayList.aspx.designer.cs">
+      <DependentUpon>SiparisDetayList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Siparis\SiparisListele.aspx.cs">
+      <DependentUpon>SiparisListele.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Siparis\SiparisListele.aspx.designer.cs">
+      <DependentUpon>SiparisListele.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\User\UserList.aspx.cs">
+      <DependentUpon>UserList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\User\UserList.aspx.designer.cs">
+      <DependentUpon>UserList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BizeUlas.aspx.cs">
+      <DependentUpon>BizeUlas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BizeUlas.aspx.designer.cs">
+      <DependentUpon>BizeUlas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CategorysProductList.aspx.cs">
+      <DependentUpon>CategorysProductList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CategorysProductList.aspx.designer.cs">
+      <DependentUpon>CategorysProductList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Davetiye.aspx.cs">
+      <DependentUpon>Davetiye.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Davetiye.aspx.designer.cs">
+      <DependentUpon>Davetiye.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DavetiyeList.aspx.cs">
+      <DependentUpon>DavetiyeList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DavetiyeList.aspx.designer.cs">
+      <DependentUpon>DavetiyeList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DavetiyeSozleri.aspx.cs">
+      <DependentUpon>DavetiyeSozleri.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DavetiyeSozleri.aspx.designer.cs">
+      <DependentUpon>DavetiyeSozleri.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Deneme.aspx.cs">
+      <DependentUpon>Deneme.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Deneme.aspx.designer.cs">
+      <DependentUpon>Deneme.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="denemes.aspx.cs">
+      <DependentUpon>denemes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="denemes.aspx.designer.cs">
+      <DependentUpon>denemes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Firsatlar.aspx.cs">
+      <DependentUpon>Firsatlar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Firsatlar.aspx.designer.cs">
+      <DependentUpon>Firsatlar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="GuncelSepet.cs" />
+    <Compile Include="Hakkimizda.aspx.cs">
+      <DependentUpon>Hakkimizda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hakkimizda.aspx.designer.cs">
+      <DependentUpon>Hakkimizda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hesabim.aspx.cs">
+      <DependentUpon>Hesabim.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hesabim.aspx.designer.cs">
+      <DependentUpon>Hesabim.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Iletisim.aspx.cs">
+      <DependentUpon>Iletisim.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Iletisim.aspx.designer.cs">
+      <DependentUpon>Iletisim.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Information.aspx.cs">
+      <DependentUpon>Information.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Information.aspx.designer.cs">
+      <DependentUpon>Information.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Misyon.aspx.cs">
+      <DependentUpon>Misyon.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Misyon.aspx.designer.cs">
+      <DependentUpon>Misyon.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="notifysepet.aspx.cs">
+      <DependentUpon>notifysepet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="notifysepet.aspx.designer.cs">
+      <DependentUpon>notifysepet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PageBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PictureResize.cs" />
+    <Compile Include="ProductDetails.aspx.cs">
+      <DependentUpon>ProductDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProductDetails.aspx.designer.cs">
+      <DependentUpon>ProductDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sepet.aspx.cs">
+      <DependentUpon>Sepet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sepet.aspx.designer.cs">
+      <DependentUpon>Sepet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SifreHatirlat.aspx.cs">
+      <DependentUpon>SifreHatirlat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SifreHatirlat.aspx.designer.cs">
+      <DependentUpon>SifreHatirlat.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Siparis.aspx.cs">
+      <DependentUpon>Siparis.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Siparis.aspx.designer.cs">
+      <DependentUpon>Siparis.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SiparisDetayi.aspx.cs">
+      <DependentUpon>SiparisDetayi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SiparisDetayi.aspx.designer.cs">
+      <DependentUpon>SiparisDetayi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SiteSablon.Master.cs">
+      <DependentUpon>SiteSablon.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SiteSablon.Master.designer.cs">
+      <DependentUpon>SiteSablon.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Sorular.aspx.cs">
+      <DependentUpon>Sorular.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sorular.aspx.designer.cs">
+      <DependentUpon>Sorular.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SubCategorysProductList.aspx.cs">
+      <DependentUpon>SubCategorysProductList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SubCategorysProductList.aspx.designer.cs">
+      <DependentUpon>SubCategorysProductList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UyeOl.aspx.cs">
+      <DependentUpon>UyeOl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UyeOl.aspx.designer.cs">
+      <DependentUpon>UyeOl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vizyon.aspx.cs">
+      <DependentUpon>Vizyon.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vizyon.aspx.designer.cs">
+      <DependentUpon>Vizyon.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebMsgBox.cs" />
+    <Compile Include="wingtheair.aspx.cs">
+      <DependentUpon>wingtheair.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wingtheair.aspx.designer.cs">
+      <DependentUpon>wingtheair.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SiteSablon.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Satis.Biz\Satis.Biz.csproj">
+      <Project>{467EE012-3AFF-4D40-BB86-D801A7A5824D}</Project>
+      <Name>Satis.Biz</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Satis.Data\Satis.Data.csproj">
+      <Project>{48C04C78-D05D-4CEF-B6A6-3E38B2897824}</Project>
+      <Name>Satis.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Web.sitemap" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\Menu\" />
+    <Folder Include="parallax\images\thumbs\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\AdminSite.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>26990</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

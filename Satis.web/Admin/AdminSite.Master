@@ -1,0 +1,158 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminSite.master.cs" Inherits="Satis.web.Admin.AdminSite"  %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link rel="Stylesheet" type="text/css" href="Style/divler.css" />
+    <link href="Style/calendar.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            height: 49px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="top">
+    <div id="login">&nbsp;WELCOME ADMINISTRATOR</div>
+    </div>
+    <div id="header"></div>
+    <div id="wrapper">
+    <div id="left">
+    <table border="1" cellspacing="2" cellpadding="1" style="width: 180px">
+  <tr>
+    <td>
+        <asp:Button ID="btnUserList" runat="server" BackColor="White" BorderColor="#003300" 
+            BorderStyle="Solid" BorderWidth="2px" Height="40px"
+            Text="Üye Listele" Width="100%" onclick="btnUserList_Click" 
+            PostBackUrl="~/Admin/User/UserList.aspx" />
+        </td>
+  </tr>
+  <tr>
+    <td class="style1">
+        <asp:Button ID="btnCategory" runat="server" BackColor="White" BorderColor="#003300" 
+            BorderStyle="Solid" BorderWidth="2px" Height="40px" 
+            Text="Kategoriler" Width="100%" onclick="btnCategory_Click" 
+            PostBackUrl="~/Admin/Product/CategoryList.aspx" />
+        </td>
+  </tr>
+  <tr>
+    <td>
+        <asp:Button ID="btnSubCategory" runat="server" BackColor="White" BorderColor="#003300" 
+            BorderStyle="Solid" BorderWidth="2px" Height="40px"
+            Text="Alt Kategoriler" Width="100%" onclick="btnSubCategory_Click" 
+            PostBackUrl="~/Admin/Product/SubcategorysList.aspx" />
+        </td>
+  </tr>
+  <tr>
+    <td>
+        <asp:Button ID="btnProduct" runat="server" BackColor="White" BorderColor="#003300" 
+            BorderStyle="Solid" BorderWidth="2px" Height="40px" 
+            Text="Ürünler" Width="100%" onclick="btnProduct_Click" 
+            PostBackUrl="~/Admin/Product/ProductList.aspx" />
+        </td>
+  </tr>
+  <tr>
+    <td>
+        <asp:Button ID="btnProductAdd" runat="server" BackColor="White" BorderColor="#003300" 
+            BorderStyle="Solid" BorderWidth="2px" Height="40px" 
+            Text="Ürün Ekle" Width="100%" onclick="btnProductAdd_Click" 
+            PostBackUrl="~/Admin/Product/ProductAdd.aspx" />
+        </td>
+  </tr>
+  <tr>
+    <td>
+        <asp:Button ID="btnProductDelete" runat="server" BackColor="White" BorderColor="#003300" 
+            BorderStyle="Solid" BorderWidth="2px" Height="40px" 
+            Text="Ürün Sil" Width="100%" onclick="btnProductDelete_Click" />
+      </td>
+  </tr>
+  <tr>
+    <td>
+        <asp:Button ID="btnSepet" runat="server" BackColor="White" 
+            BorderColor="#003300" BorderStyle="Solid" BorderWidth="2px" Height="40px" 
+            PostBackUrl="~/Admin/Siparis/Sepet.aspx" Text="Sepet Düzenle" 
+            Width="100%" />
+      </td>
+  </tr>
+  <tr>
+    <td>
+        <asp:Button ID="btnSiparisListele" runat="server" BackColor="White" BorderColor="#003300" 
+            BorderStyle="Solid" BorderWidth="2px" Height="40px" 
+            Text="Sipariş Listele" Width="100%" 
+            PostBackUrl="~/Admin/Siparis/SiparisListele.aspx" 
+            onclick="btnSiparisListele_Click" />
+      </td>
+  </tr>
+  <tr>
+    <td>
+        <asp:Button ID="DetayList" runat="server" BackColor="White" BorderColor="#003300" 
+            BorderStyle="Solid" BorderWidth="2px" Height="40px" 
+            Text="Sipariş Detay Listele" Width="100%" 
+            PostBackUrl="~/Admin/Siparis/SiparisDetayList.aspx" 
+            onclick="btnSiparisListele_Click" />
+      </td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>
+        <asp:Button ID="btnAnaSayfa" runat="server" BackColor="White" 
+            BorderColor="#003300" BorderStyle="Solid" BorderWidth="2px" Height="40px" 
+            PostBackUrl="~/Default.aspx" Text="Ana Sayfa" Width="100%" />
+      </td>
+  </tr>
+</table>
+</div>
+    <div id="right">
+    <div id="slider"><div style="width:auto;height:100%;float:left">
+    <asp:Calendar ID="Calendar1"   
+    runat="server"   
+    DayNameFormat="FirstLetter"  
+    Font-Names="Arial"   
+    Font-Size="11px"   
+    NextMonthText="»"   
+    PrevMonthText="«"  
+    SelectMonthText="»"   
+    SelectWeekText="›"  
+    CssClass="myCalendar"  
+    BorderStyle="None"   
+    CellPadding="1" ondayrender="Calendar1_DayRender1">  
+  
+    <OtherMonthDayStyle ForeColor="Gray" />  
+  
+    <DayStyle CssClass="myCalendarDay" />  
+  
+    <SelectedDayStyle Font-Bold="True" Font-Size="12px" />  
+  
+    <SelectorStyle CssClass="myCalendarSelector" />  
+  
+    <NextPrevStyle CssClass="myCalendarNextPrev" />  
+  
+    <TitleStyle CssClass="myCalendarTitle" />  
+</asp:Calendar>  
+
+        </div><div style="width:auto;height:100%;float:left;margin-left:20px">
+        </div>
+        </div>
+        <div id="content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            <div id="contain">
+            
+            </div>
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,128 @@
+#top
+{
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    background-color: Gray;  
+}
+#login
+{
+    margin: 0px auto;
+    width: 1280px;
+    height: 50px;
+    border: 1px solid white;
+    background-color:Gray;
+    font-size: x-large;
+    text-align: center;
+}
+#header
+{
+    width: 1280px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    border: 1px solid #FF8282;
+    background-color: White;
+}
+#wrapper
+{
+    background-color: White;
+    width: 1280px;
+    height: auto;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: White;
+}
+#left
+{
+    width: 180px;
+    margin-top: 0px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    background-color: Gray;
+    float: left;
+}
+#right
+{
+    width: 1100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    background-color: White;
+    float: right;
+}
+#slider
+{
+    width: 100%;
+    border: 1px solid #FF8282;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+#content
+{
+    float: right;
+    width: 100%;
+    height: auto;
+    margin-left: 0px;
+    margin-top: 5px;
+    margin-bottom: auto;
+    margin-right: auto; 
+    }
+
+#footer
+{
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #888777;
+    float: none;
+    height: 60px;
+}
+#menu
+{
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #FF8282;
+    background-color: #FF8282;
+}
+#contain
+{
+    width: 100%;
+    height:auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:small;
+}
+#filter
+{
+    width: 100%;
+    border: 1px solid #FF8282;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    }
+    

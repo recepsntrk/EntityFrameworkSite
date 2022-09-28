@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="SatisEntities-Web.config Connection String" description="SatisEntities Connection String used in web.config by the application to access the database." defaultvalue="metadata=res://*/Satis.csdl|res://*/Satis.ssdl|res://*/Satis.msl;provider=System.Data.SqlClient;provider connection string=&quot;Data Source=94.73.147.244;Initial Catalog=DB121024022957;Persist Security Info=True;User ID=USR121024022957;Password=8520Daredevil&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Recep\ Senturk\\Documents\\Visual\ Studio\ 2010\\Projects\\AdinAjans_2\\Satis\.web\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SatisEntities']/@connectionString" />
+  </parameter>
+</parameters>

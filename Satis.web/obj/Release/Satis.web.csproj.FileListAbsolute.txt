@@ -1,0 +1,209 @@
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans_2\Satis.web\bin\Satis.web.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans_2\Satis.web\bin\Satis.web.pdb
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans_2\Satis.web\bin\Satis.Biz.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans_2\Satis.web\bin\Satis.Data.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans_2\Satis.web\bin\Satis.Biz.pdb
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans_2\Satis.web\bin\Satis.Data.pdb
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans_2\Satis.web\bin\AjaxControlToolkit.pdb
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans_2\Satis.web\bin\ar\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans_2\Satis.web\bin\cs\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans_2\Satis.web\bin\de\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans_2\Satis.web\bin\es\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans_2\Satis.web\bin\fr\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans_2\Satis.web\bin\he\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans_2\Satis.web\bin\hi\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans_2\Satis.web\bin\it\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans_2\Satis.web\bin\ja\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans_2\Satis.web\bin\ko\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans_2\Satis.web\bin\nl\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans_2\Satis.web\bin\pt\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans_2\Satis.web\bin\ru\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans_2\Satis.web\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans_2\Satis.web\bin\zh-CHS\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans_2\Satis.web\bin\zh-CHT\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans_2\Satis.web\obj\Release\Satis.web.csprojResolveAssemblyReference.cache
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans_2\Satis.web\obj\Release\Satis.web.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans_2\Satis.web\obj\Release\Satis.web.pdb
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.web\bin\Satis.web.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.web\bin\Satis.web.pdb
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.web\bin\Satis.Biz.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.web\bin\Satis.Data.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.web\bin\Satis.Biz.pdb
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.web\bin\Satis.Data.pdb
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.web\bin\AjaxControlToolkit.pdb
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.web\bin\ar\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.web\bin\cs\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.web\bin\de\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.web\bin\es\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.web\bin\fr\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.web\bin\he\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.web\bin\hi\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.web\bin\it\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.web\bin\ja\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.web\bin\ko\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.web\bin\nl\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.web\bin\pt\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.web\bin\ru\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.web\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.web\bin\zh-CHS\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.web\bin\zh-CHT\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.web\obj\Release\Satis.web.csprojResolveAssemblyReference.cache
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.web\obj\Release\Satis.web.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.web\obj\Release\Satis.web.pdb
+C:\Users\Adinajans\Desktop\AdinAjans\AdinAjans\Satis.web\bin\Satis.web.dll
+C:\Users\Adinajans\Desktop\AdinAjans\AdinAjans\Satis.web\bin\Satis.web.pdb
+C:\Users\Adinajans\Desktop\AdinAjans\AdinAjans\Satis.web\bin\Satis.Biz.dll
+C:\Users\Adinajans\Desktop\AdinAjans\AdinAjans\Satis.web\bin\Satis.Data.dll
+C:\Users\Adinajans\Desktop\AdinAjans\AdinAjans\Satis.web\bin\Satis.Biz.pdb
+C:\Users\Adinajans\Desktop\AdinAjans\AdinAjans\Satis.web\bin\Satis.Data.pdb
+C:\Users\Adinajans\Desktop\AdinAjans\AdinAjans\Satis.web\bin\AjaxControlToolkit.pdb
+C:\Users\Adinajans\Desktop\AdinAjans\AdinAjans\Satis.web\bin\ar\AjaxControlToolkit.resources.dll
+C:\Users\Adinajans\Desktop\AdinAjans\AdinAjans\Satis.web\bin\cs\AjaxControlToolkit.resources.dll
+C:\Users\Adinajans\Desktop\AdinAjans\AdinAjans\Satis.web\bin\de\AjaxControlToolkit.resources.dll
+C:\Users\Adinajans\Desktop\AdinAjans\AdinAjans\Satis.web\bin\es\AjaxControlToolkit.resources.dll
+C:\Users\Adinajans\Desktop\AdinAjans\AdinAjans\Satis.web\bin\fr\AjaxControlToolkit.resources.dll
+C:\Users\Adinajans\Desktop\AdinAjans\AdinAjans\Satis.web\bin\he\AjaxControlToolkit.resources.dll
+C:\Users\Adinajans\Desktop\AdinAjans\AdinAjans\Satis.web\bin\hi\AjaxControlToolkit.resources.dll
+C:\Users\Adinajans\Desktop\AdinAjans\AdinAjans\Satis.web\bin\it\AjaxControlToolkit.resources.dll
+C:\Users\Adinajans\Desktop\AdinAjans\AdinAjans\Satis.web\bin\ja\AjaxControlToolkit.resources.dll
+C:\Users\Adinajans\Desktop\AdinAjans\AdinAjans\Satis.web\bin\ko\AjaxControlToolkit.resources.dll
+C:\Users\Adinajans\Desktop\AdinAjans\AdinAjans\Satis.web\bin\nl\AjaxControlToolkit.resources.dll
+C:\Users\Adinajans\Desktop\AdinAjans\AdinAjans\Satis.web\bin\pt\AjaxControlToolkit.resources.dll
+C:\Users\Adinajans\Desktop\AdinAjans\AdinAjans\Satis.web\bin\ru\AjaxControlToolkit.resources.dll
+C:\Users\Adinajans\Desktop\AdinAjans\AdinAjans\Satis.web\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\Users\Adinajans\Desktop\AdinAjans\AdinAjans\Satis.web\bin\zh-CHS\AjaxControlToolkit.resources.dll
+C:\Users\Adinajans\Desktop\AdinAjans\AdinAjans\Satis.web\bin\zh-CHT\AjaxControlToolkit.resources.dll
+C:\Users\Adinajans\Desktop\AdinAjans\AdinAjans\Satis.web\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Adinajans\Desktop\AdinAjans\AdinAjans\Satis.web\obj\Release\Satis.web.dll
+C:\Users\Adinajans\Desktop\AdinAjans\AdinAjans\Satis.web\obj\Release\Satis.web.pdb
+C:\Users\Recep Senturk\Desktop\AdinAjans\AdinAjans\Satis.web\bin\Satis.web.dll
+C:\Users\Recep Senturk\Desktop\AdinAjans\AdinAjans\Satis.web\bin\Satis.web.pdb
+C:\Users\Recep Senturk\Desktop\AdinAjans\AdinAjans\Satis.web\bin\Satis.Biz.dll
+C:\Users\Recep Senturk\Desktop\AdinAjans\AdinAjans\Satis.web\bin\Satis.Data.dll
+C:\Users\Recep Senturk\Desktop\AdinAjans\AdinAjans\Satis.web\bin\Satis.Biz.pdb
+C:\Users\Recep Senturk\Desktop\AdinAjans\AdinAjans\Satis.web\bin\Satis.Data.pdb
+C:\Users\Recep Senturk\Desktop\AdinAjans\AdinAjans\Satis.web\bin\AjaxControlToolkit.pdb
+C:\Users\Recep Senturk\Desktop\AdinAjans\AdinAjans\Satis.web\bin\ar\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Desktop\AdinAjans\AdinAjans\Satis.web\bin\cs\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Desktop\AdinAjans\AdinAjans\Satis.web\bin\de\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Desktop\AdinAjans\AdinAjans\Satis.web\bin\es\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Desktop\AdinAjans\AdinAjans\Satis.web\bin\fr\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Desktop\AdinAjans\AdinAjans\Satis.web\bin\he\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Desktop\AdinAjans\AdinAjans\Satis.web\bin\hi\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Desktop\AdinAjans\AdinAjans\Satis.web\bin\it\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Desktop\AdinAjans\AdinAjans\Satis.web\bin\ja\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Desktop\AdinAjans\AdinAjans\Satis.web\bin\ko\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Desktop\AdinAjans\AdinAjans\Satis.web\bin\nl\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Desktop\AdinAjans\AdinAjans\Satis.web\bin\pt\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Desktop\AdinAjans\AdinAjans\Satis.web\bin\ru\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Desktop\AdinAjans\AdinAjans\Satis.web\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Desktop\AdinAjans\AdinAjans\Satis.web\bin\zh-CHS\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Desktop\AdinAjans\AdinAjans\Satis.web\bin\zh-CHT\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Desktop\AdinAjans\AdinAjans\Satis.web\obj\Release\Satis.web.csprojResolveAssemblyReference.cache
+C:\Users\Recep Senturk\Desktop\AdinAjans\AdinAjans\Satis.web\obj\Release\Satis.web.dll
+C:\Users\Recep Senturk\Desktop\AdinAjans\AdinAjans\Satis.web\obj\Release\Satis.web.pdb
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\AdinAjans\Satis.web\bin\Satis.web.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\AdinAjans\Satis.web\bin\Satis.web.pdb
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\AdinAjans\Satis.web\bin\Satis.Biz.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\AdinAjans\Satis.web\bin\Satis.Data.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\AdinAjans\Satis.web\bin\Satis.Biz.pdb
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\AdinAjans\Satis.web\bin\Satis.Data.pdb
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\AdinAjans\Satis.web\bin\AjaxControlToolkit.pdb
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\AdinAjans\Satis.web\bin\ar\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\AdinAjans\Satis.web\bin\cs\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\AdinAjans\Satis.web\bin\de\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\AdinAjans\Satis.web\bin\es\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\AdinAjans\Satis.web\bin\fr\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\AdinAjans\Satis.web\bin\he\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\AdinAjans\Satis.web\bin\hi\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\AdinAjans\Satis.web\bin\it\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\AdinAjans\Satis.web\bin\ja\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\AdinAjans\Satis.web\bin\ko\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\AdinAjans\Satis.web\bin\nl\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\AdinAjans\Satis.web\bin\pt\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\AdinAjans\Satis.web\bin\ru\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\AdinAjans\Satis.web\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\AdinAjans\Satis.web\bin\zh-CHS\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\AdinAjans\Satis.web\bin\zh-CHT\AjaxControlToolkit.resources.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\AdinAjans\Satis.web\obj\Release\Satis.web.csprojResolveAssemblyReference.cache
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\AdinAjans\Satis.web\obj\Release\Satis.web.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\AdinAjans\Satis.web\obj\Release\Satis.web.pdb
+C:\Users\Adinajans\Desktop\AdinAjans\AdinAjans\AdinAjans\Satis.web\bin\Satis.web.dll
+C:\Users\Adinajans\Desktop\AdinAjans\AdinAjans\AdinAjans\Satis.web\bin\Satis.web.pdb
+C:\Users\Adinajans\Desktop\AdinAjans\AdinAjans\AdinAjans\Satis.web\bin\Satis.Biz.dll
+C:\Users\Adinajans\Desktop\AdinAjans\AdinAjans\AdinAjans\Satis.web\bin\Satis.Data.dll
+C:\Users\Adinajans\Desktop\AdinAjans\AdinAjans\AdinAjans\Satis.web\bin\Satis.Biz.pdb
+C:\Users\Adinajans\Desktop\AdinAjans\AdinAjans\AdinAjans\Satis.web\bin\Satis.Data.pdb
+C:\Users\Adinajans\Desktop\AdinAjans\AdinAjans\AdinAjans\Satis.web\bin\AjaxControlToolkit.pdb
+C:\Users\Adinajans\Desktop\AdinAjans\AdinAjans\AdinAjans\Satis.web\bin\ar\AjaxControlToolkit.resources.dll
+C:\Users\Adinajans\Desktop\AdinAjans\AdinAjans\AdinAjans\Satis.web\bin\cs\AjaxControlToolkit.resources.dll
+C:\Users\Adinajans\Desktop\AdinAjans\AdinAjans\AdinAjans\Satis.web\bin\de\AjaxControlToolkit.resources.dll
+C:\Users\Adinajans\Desktop\AdinAjans\AdinAjans\AdinAjans\Satis.web\bin\es\AjaxControlToolkit.resources.dll
+C:\Users\Adinajans\Desktop\AdinAjans\AdinAjans\AdinAjans\Satis.web\bin\fr\AjaxControlToolkit.resources.dll
+C:\Users\Adinajans\Desktop\AdinAjans\AdinAjans\AdinAjans\Satis.web\bin\he\AjaxControlToolkit.resources.dll
+C:\Users\Adinajans\Desktop\AdinAjans\AdinAjans\AdinAjans\Satis.web\bin\hi\AjaxControlToolkit.resources.dll
+C:\Users\Adinajans\Desktop\AdinAjans\AdinAjans\AdinAjans\Satis.web\bin\it\AjaxControlToolkit.resources.dll
+C:\Users\Adinajans\Desktop\AdinAjans\AdinAjans\AdinAjans\Satis.web\bin\ja\AjaxControlToolkit.resources.dll
+C:\Users\Adinajans\Desktop\AdinAjans\AdinAjans\AdinAjans\Satis.web\bin\ko\AjaxControlToolkit.resources.dll
+C:\Users\Adinajans\Desktop\AdinAjans\AdinAjans\AdinAjans\Satis.web\bin\nl\AjaxControlToolkit.resources.dll
+C:\Users\Adinajans\Desktop\AdinAjans\AdinAjans\AdinAjans\Satis.web\bin\pt\AjaxControlToolkit.resources.dll
+C:\Users\Adinajans\Desktop\AdinAjans\AdinAjans\AdinAjans\Satis.web\bin\ru\AjaxControlToolkit.resources.dll
+C:\Users\Adinajans\Desktop\AdinAjans\AdinAjans\AdinAjans\Satis.web\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\Users\Adinajans\Desktop\AdinAjans\AdinAjans\AdinAjans\Satis.web\bin\zh-CHS\AjaxControlToolkit.resources.dll
+C:\Users\Adinajans\Desktop\AdinAjans\AdinAjans\AdinAjans\Satis.web\bin\zh-CHT\AjaxControlToolkit.resources.dll
+C:\Users\Adinajans\Desktop\AdinAjans\AdinAjans\AdinAjans\Satis.web\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Adinajans\Desktop\AdinAjans\AdinAjans\AdinAjans\Satis.web\obj\Release\Satis.web.dll
+C:\Users\Adinajans\Desktop\AdinAjans\AdinAjans\AdinAjans\Satis.web\obj\Release\Satis.web.pdb
+C:\Users\Rcpsntrk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.web\bin\Satis.web.dll
+C:\Users\Rcpsntrk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.web\bin\Satis.web.pdb
+C:\Users\Rcpsntrk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.web\bin\Satis.Biz.dll
+C:\Users\Rcpsntrk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.web\bin\Satis.Data.dll
+C:\Users\Rcpsntrk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.web\bin\Satis.Biz.pdb
+C:\Users\Rcpsntrk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.web\bin\Satis.Data.pdb
+C:\Users\Rcpsntrk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.web\bin\AjaxControlToolkit.pdb
+C:\Users\Rcpsntrk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.web\bin\ar\AjaxControlToolkit.resources.dll
+C:\Users\Rcpsntrk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.web\bin\cs\AjaxControlToolkit.resources.dll
+C:\Users\Rcpsntrk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.web\bin\de\AjaxControlToolkit.resources.dll
+C:\Users\Rcpsntrk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.web\bin\es\AjaxControlToolkit.resources.dll
+C:\Users\Rcpsntrk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.web\bin\fr\AjaxControlToolkit.resources.dll
+C:\Users\Rcpsntrk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.web\bin\he\AjaxControlToolkit.resources.dll
+C:\Users\Rcpsntrk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.web\bin\hi\AjaxControlToolkit.resources.dll
+C:\Users\Rcpsntrk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.web\bin\it\AjaxControlToolkit.resources.dll
+C:\Users\Rcpsntrk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.web\bin\ja\AjaxControlToolkit.resources.dll
+C:\Users\Rcpsntrk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.web\bin\ko\AjaxControlToolkit.resources.dll
+C:\Users\Rcpsntrk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.web\bin\nl\AjaxControlToolkit.resources.dll
+C:\Users\Rcpsntrk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.web\bin\pt\AjaxControlToolkit.resources.dll
+C:\Users\Rcpsntrk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.web\bin\ru\AjaxControlToolkit.resources.dll
+C:\Users\Rcpsntrk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.web\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\Users\Rcpsntrk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.web\bin\zh-CHS\AjaxControlToolkit.resources.dll
+C:\Users\Rcpsntrk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.web\bin\zh-CHT\AjaxControlToolkit.resources.dll
+C:\Users\Rcpsntrk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.web\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Rcpsntrk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.web\obj\Release\Satis.web.dll
+C:\Users\Rcpsntrk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.web\obj\Release\Satis.web.pdb
+J:\Yeni klasör (2)\AdinAjans\AdinAjans\Satis.web\bin\Satis.web.dll
+J:\Yeni klasör (2)\AdinAjans\AdinAjans\Satis.web\bin\Satis.web.pdb
+J:\Yeni klasör (2)\AdinAjans\AdinAjans\Satis.web\bin\AjaxControlToolkit.dll
+J:\Yeni klasör (2)\AdinAjans\AdinAjans\Satis.web\bin\Satis.Biz.dll
+J:\Yeni klasör (2)\AdinAjans\AdinAjans\Satis.web\bin\Satis.Data.dll
+J:\Yeni klasör (2)\AdinAjans\AdinAjans\Satis.web\bin\Satis.Biz.pdb
+J:\Yeni klasör (2)\AdinAjans\AdinAjans\Satis.web\bin\Satis.Data.pdb
+J:\Yeni klasör (2)\AdinAjans\AdinAjans\Satis.web\bin\AjaxControlToolkit.pdb
+J:\Yeni klasör (2)\AdinAjans\AdinAjans\Satis.web\bin\ar\AjaxControlToolkit.resources.dll
+J:\Yeni klasör (2)\AdinAjans\AdinAjans\Satis.web\bin\cs\AjaxControlToolkit.resources.dll
+J:\Yeni klasör (2)\AdinAjans\AdinAjans\Satis.web\bin\de\AjaxControlToolkit.resources.dll
+J:\Yeni klasör (2)\AdinAjans\AdinAjans\Satis.web\bin\es\AjaxControlToolkit.resources.dll
+J:\Yeni klasör (2)\AdinAjans\AdinAjans\Satis.web\bin\fr\AjaxControlToolkit.resources.dll
+J:\Yeni klasör (2)\AdinAjans\AdinAjans\Satis.web\bin\he\AjaxControlToolkit.resources.dll
+J:\Yeni klasör (2)\AdinAjans\AdinAjans\Satis.web\bin\hi\AjaxControlToolkit.resources.dll
+J:\Yeni klasör (2)\AdinAjans\AdinAjans\Satis.web\bin\it\AjaxControlToolkit.resources.dll
+J:\Yeni klasör (2)\AdinAjans\AdinAjans\Satis.web\bin\ja\AjaxControlToolkit.resources.dll
+J:\Yeni klasör (2)\AdinAjans\AdinAjans\Satis.web\bin\ko\AjaxControlToolkit.resources.dll
+J:\Yeni klasör (2)\AdinAjans\AdinAjans\Satis.web\bin\nl\AjaxControlToolkit.resources.dll
+J:\Yeni klasör (2)\AdinAjans\AdinAjans\Satis.web\bin\pt\AjaxControlToolkit.resources.dll
+J:\Yeni klasör (2)\AdinAjans\AdinAjans\Satis.web\bin\ru\AjaxControlToolkit.resources.dll
+J:\Yeni klasör (2)\AdinAjans\AdinAjans\Satis.web\bin\tr-TR\AjaxControlToolkit.resources.dll
+J:\Yeni klasör (2)\AdinAjans\AdinAjans\Satis.web\bin\zh-CHS\AjaxControlToolkit.resources.dll
+J:\Yeni klasör (2)\AdinAjans\AdinAjans\Satis.web\bin\zh-CHT\AjaxControlToolkit.resources.dll
+J:\Yeni klasör (2)\AdinAjans\AdinAjans\Satis.web\obj\Release\ResolveAssemblyReference.cache
+J:\Yeni klasör (2)\AdinAjans\AdinAjans\Satis.web\obj\Release\Satis.web.dll
+J:\Yeni klasör (2)\AdinAjans\AdinAjans\Satis.web\obj\Release\Satis.web.pdb

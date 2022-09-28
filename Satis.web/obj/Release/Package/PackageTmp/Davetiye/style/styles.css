@@ -1,0 +1,29 @@
+﻿body {background-color:#fff9f9;font-size:small;font-style:italic;font-family:Calibri;margin:0 0
+}
+#Ust
+{width: 100%;height:30px;background-color: #FF8282;position:absolute;top:0px;right:0px;left:0px}
+#sayfa{width:980px;height:auto;margin-left:auto;margin-right:auto}
+#giris
+{width: 980px;margin:0 auto;height: auto;color:White}
+#logoadin
+{width: 980px;position:relative;margin-top:35px;height: 110px;margin-left:auto;margin-right:auto}
+#orta
+{width: 980px;height: auto;margin-top: 5px;min-height:600px}
+#sol
+{width: 182px;margin:0 auto;height: auto;float: left}
+#sag
+{margin:0 auto;width: 790px;height: auto;float: right;background-color:White}
+#Scrollkampanya
+{margin-top: 10px;margin-bottom: 10px;width: 790px;height: auto;float: right;font-size: medium}
+#sliderskit
+{width: 100%;margin:0 auto;height: auto}
+#icerik
+{float: right;width: 100%;height: 100%;margin:10px auto;text-align: center}
+#footermy
+{position: relative;clear: both;width: 100%;height: 50px;background-color: #FF8282;margin-top:20px}
+#ustmenu
+{width: 980px;height: 30px;margin-top: 5px;margin-left: auto;margin-right: auto;background-color: #FF8282;position: relative}
+#menuorta
+{width: 980px;height: 30px;margin: 0 auto;position: relative}
+#filtre
+{width: 790px;margin:0 auto;height: auto;clear: both;float: none;position: relative}

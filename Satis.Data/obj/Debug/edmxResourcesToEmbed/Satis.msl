@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SatisModelStoreContainer" CdmEntityContainer="SatisEntities">
+    <EntitySetMapping Name="tblCategory">
+      <EntityTypeMapping TypeName="SatisModel.tblCategory">
+        <MappingFragment StoreEntitySet="tblCategory">
+          <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+          <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+          <ScalarProperty Name="ISACTIVE" ColumnName="ISACTIVE" />
+          <ScalarProperty Name="ISDELETED" ColumnName="ISDELETED" />
+          <ScalarProperty Name="ISCREDATE" ColumnName="ISCREDATE" />
+          <ScalarProperty Name="ISMODDATE" ColumnName="ISMODDATE" />
+          <ScalarProperty Name="ISCREUSERID" ColumnName="ISCREUSERID" />
+          <ScalarProperty Name="ISMODUSERID" ColumnName="ISMODUSERID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblPicture">
+      <EntityTypeMapping TypeName="SatisModel.tblPicture">
+        <MappingFragment StoreEntitySet="tblPicture">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="Picture1" ColumnName="Picture1" />
+          <ScalarProperty Name="thumbsPicture1" ColumnName="thumbsPicture1" />
+          <ScalarProperty Name="ISACTIVE" ColumnName="ISACTIVE" />
+          <ScalarProperty Name="ISDELETED" ColumnName="ISDELETED" />
+          <ScalarProperty Name="ISCREDATE" ColumnName="ISCREDATE" />
+          <ScalarProperty Name="ISMODDATE" ColumnName="ISMODDATE" />
+          <ScalarProperty Name="ISCREUSERID" ColumnName="ISCREUSERID" />
+          <ScalarProperty Name="ISMODUSERID" ColumnName="ISMODUSERID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblProduct">
+      <EntityTypeMapping TypeName="SatisModel.tblProduct">
+        <MappingFragment StoreEntitySet="tblProduct">
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+          <ScalarProperty Name="SubCategoryID" ColumnName="SubCategoryID" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="KdvDahil" ColumnName="KdvDahil" />
+          <ScalarProperty Name="OldPrice" ColumnName="OldPrice" />
+          <ScalarProperty Name="ISCampaign" ColumnName="ISCampaign" />
+          <ScalarProperty Name="Stock" ColumnName="Stock" />
+          <ScalarProperty Name="Size" ColumnName="Size" />
+          <ScalarProperty Name="Detail" ColumnName="Detail" />
+          <ScalarProperty Name="ISACTIVE" ColumnName="ISACTIVE" />
+          <ScalarProperty Name="ISDELETED" ColumnName="ISDELETED" />
+          <ScalarProperty Name="ISCREDATE" ColumnName="ISCREDATE" />
+          <ScalarProperty Name="ISMODDATE" ColumnName="ISMODDATE" />
+          <ScalarProperty Name="ISCREUSERID" ColumnName="ISCREUSERID" />
+          <ScalarProperty Name="ISMODUSERID" ColumnName="ISMODUSERID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblProductComment">
+      <EntityTypeMapping TypeName="SatisModel.tblProductComment">
+        <MappingFragment StoreEntitySet="tblProductComment">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="UyeID" ColumnName="UyeID" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="Score" ColumnName="Score" />
+          <ScalarProperty Name="Comment" ColumnName="Comment" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblSepet">
+      <EntityTypeMapping TypeName="SatisModel.tblSepet">
+        <MappingFragment StoreEntitySet="tblSepet">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="UyeID" ColumnName="UyeID" />
+          <ScalarProperty Name="Adet" ColumnName="Adet" />
+          <ScalarProperty Name="ISACTIVE" ColumnName="ISACTIVE" />
+          <ScalarProperty Name="ISDELETED" ColumnName="ISDELETED" />
+          <ScalarProperty Name="ISCREDATE" ColumnName="ISCREDATE" />
+          <ScalarProperty Name="AlimDetayi" ColumnName="AlimDetayi" />
+          <ScalarProperty Name="Tutar" ColumnName="Tutar" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblSiparisDetaylari">
+      <EntityTypeMapping TypeName="SatisModel.tblSiparisDetaylari">
+        <MappingFragment StoreEntitySet="tblSiparisDetaylari">
+          <ScalarProperty Name="SiparisDetayID" ColumnName="SiparisDetayID" />
+          <ScalarProperty Name="SiparisID" ColumnName="SiparisID" />
+          <ScalarProperty Name="SiparisTipID" ColumnName="SiparisTipID" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="Adet" ColumnName="Adet" />
+          <ScalarProperty Name="AlimDetayi" ColumnName="AlimDetayi" />
+          <ScalarProperty Name="ISACTIVE" ColumnName="ISACTIVE" />
+          <ScalarProperty Name="ISDELETED" ColumnName="ISDELETED" />
+          <ScalarProperty Name="ISCREDATE" ColumnName="ISCREDATE" />
+          <ScalarProperty Name="ISMODDATE" ColumnName="ISMODDATE" />
+          <ScalarProperty Name="ISMODUSERID" ColumnName="ISMODUSERID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblSiparisDurumlari">
+      <EntityTypeMapping TypeName="SatisModel.tblSiparisDurumlari">
+        <MappingFragment StoreEntitySet="tblSiparisDurumlari">
+          <ScalarProperty Name="DurumID" ColumnName="DurumID" />
+          <ScalarProperty Name="DurumAdi" ColumnName="DurumAdi" />
+          <ScalarProperty Name="ISACTIVE" ColumnName="ISACTIVE" />
+          <ScalarProperty Name="ISDELETED" ColumnName="ISDELETED" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblSiparisler">
+      <EntityTypeMapping TypeName="SatisModel.tblSiparisler">
+        <MappingFragment StoreEntitySet="tblSiparisler">
+          <ScalarProperty Name="SiparisID" ColumnName="SiparisID" />
+          <ScalarProperty Name="UyeID" ColumnName="UyeID" />
+          <ScalarProperty Name="DurumID" ColumnName="DurumID" />
+          <ScalarProperty Name="SiparisToplamTutar" ColumnName="SiparisToplamTutar" />
+          <ScalarProperty Name="ISACTIVE" ColumnName="ISACTIVE" />
+          <ScalarProperty Name="ISDELETED" ColumnName="ISDELETED" />
+          <ScalarProperty Name="ISCREDATE" ColumnName="ISCREDATE" />
+          <ScalarProperty Name="ISMODDATE" ColumnName="ISMODDATE" />
+          <ScalarProperty Name="ISMODUSERID" ColumnName="ISMODUSERID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblSubCategory">
+      <EntityTypeMapping TypeName="SatisModel.tblSubCategory">
+        <MappingFragment StoreEntitySet="tblSubCategory">
+          <ScalarProperty Name="SubCategoryID" ColumnName="SubCategoryID" />
+          <ScalarProperty Name="SubCategoryName" ColumnName="SubCategoryName" />
+          <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+          <ScalarProperty Name="ISACTIVE" ColumnName="ISACTIVE" />
+          <ScalarProperty Name="ISDELETED" ColumnName="ISDELETED" />
+          <ScalarProperty Name="ISCREDATE" ColumnName="ISCREDATE" />
+          <ScalarProperty Name="ISMODDATE" ColumnName="ISMODDATE" />
+          <ScalarProperty Name="ISCREUSERID" ColumnName="ISCREUSERID" />
+          <ScalarProperty Name="ISMODUSERID" ColumnName="ISMODUSERID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblUyeIletisim">
+      <EntityTypeMapping TypeName="SatisModel.tblUyeIletisim">
+        <MappingFragment StoreEntitySet="tblUyeIletisim">
+          <ScalarProperty Name="IletisimID" ColumnName="IletisimID" />
+          <ScalarProperty Name="UyeID" ColumnName="UyeID" />
+          <ScalarProperty Name="Telefon" ColumnName="Telefon" />
+          <ScalarProperty Name="Adres" ColumnName="Adres" />
+          <ScalarProperty Name="Il" ColumnName="Il" />
+          <ScalarProperty Name="Ilce" ColumnName="Ilce" />
+          <ScalarProperty Name="AdresAdi" ColumnName="AdresAdi" />
+          <ScalarProperty Name="ISACTIVE" ColumnName="ISACTIVE" />
+          <ScalarProperty Name="ISDELETED" ColumnName="ISDELETED" />
+          <ScalarProperty Name="ISCREDATE" ColumnName="ISCREDATE" />
+          <ScalarProperty Name="ISMODDATE" ColumnName="ISMODDATE" />
+          <ScalarProperty Name="CreUSERID" ColumnName="CreUSERID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblUyeler">
+      <EntityTypeMapping TypeName="SatisModel.tblUyeler">
+        <MappingFragment StoreEntitySet="tblUyeler">
+          <ScalarProperty Name="UyeID" ColumnName="UyeID" />
+          <ScalarProperty Name="UyeTipID" ColumnName="UyeTipID" />
+          <ScalarProperty Name="UyeAdi" ColumnName="UyeAdi" />
+          <ScalarProperty Name="UyeMail" ColumnName="UyeMail" />
+          <ScalarProperty Name="UyeTel" ColumnName="UyeTel" />
+          <ScalarProperty Name="UyeCinsiyeti" ColumnName="UyeCinsiyeti" />
+          <ScalarProperty Name="UyeSifresi" ColumnName="UyeSifresi" />
+          <ScalarProperty Name="UyeDogTarihi" ColumnName="UyeDogTarihi" />
+          <ScalarProperty Name="UyeAdresi" ColumnName="UyeAdresi" />
+          <ScalarProperty Name="AdresIl" ColumnName="AdresIl" />
+          <ScalarProperty Name="AdresIlce" ColumnName="AdresIlce" />
+          <ScalarProperty Name="ISACTIVE" ColumnName="ISACTIVE" />
+          <ScalarProperty Name="ISDELETED" ColumnName="ISDELETED" />
+          <ScalarProperty Name="ISCREDATE" ColumnName="ISCREDATE" />
+          <ScalarProperty Name="ISMODDATE" ColumnName="ISMODDATE" />
+          <ScalarProperty Name="Aktivasyon" ColumnName="Aktivasyon" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblUyeTipleri">
+      <EntityTypeMapping TypeName="SatisModel.tblUyeTipleri">
+        <MappingFragment StoreEntitySet="tblUyeTipleri">
+          <ScalarProperty Name="UyeTipID" ColumnName="UyeTipID" />
+          <ScalarProperty Name="UyeTipAdi" ColumnName="UyeTipAdi" />
+          <ScalarProperty Name="ISACTIVE" ColumnName="ISACTIVE" />
+          <ScalarProperty Name="ISDELETED" ColumnName="ISDELETED" />
+          <ScalarProperty Name="ISCREDATE" ColumnName="ISCREDATE" />
+          <ScalarProperty Name="ISMODDATE" ColumnName="ISMODDATE" />
+          <ScalarProperty Name="CreUSERID" ColumnName="CreUSERID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

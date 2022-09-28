@@ -1,0 +1,90 @@
+c:\users\recep senturk\documents\visual studio 2010\Projects\AdinAjans\Satis.Data\bin\Debug\Satis.Data.dll.config
+c:\users\recep senturk\documents\visual studio 2010\Projects\AdinAjans\Satis.Data\bin\Debug\Satis.Data.dll
+c:\users\recep senturk\documents\visual studio 2010\Projects\AdinAjans\Satis.Data\bin\Debug\Satis.Data.pdb
+c:\users\recep senturk\documents\visual studio 2010\Projects\AdinAjans\Satis.Data\obj\Debug\Satis.Data.dll
+c:\users\recep senturk\documents\visual studio 2010\Projects\AdinAjans\Satis.Data\obj\Debug\Satis.Data.pdb
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.Data\obj\Debug\Satis.Data.csprojResolveAssemblyReference.cache
+C:\Users\Kariyer\Desktop\AdinAjans\Satis.Data\bin\Debug\Satis.Data.dll.config
+C:\Users\Kariyer\Desktop\AdinAjans\Satis.Data\bin\Debug\Satis.Data.dll
+C:\Users\Kariyer\Desktop\AdinAjans\Satis.Data\bin\Debug\Satis.Data.pdb
+C:\Users\Kariyer\Desktop\AdinAjans\Satis.Data\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Kariyer\Desktop\AdinAjans\Satis.Data\obj\Debug\Satis.Data.dll
+C:\Users\Kariyer\Desktop\AdinAjans\Satis.Data\obj\Debug\Satis.Data.pdb
+C:\Users\Recep Senturk\Desktop\AdinAjans - Kopya\Satis.Data\bin\Debug\Satis.Data.dll.config
+C:\Users\Recep Senturk\Desktop\AdinAjans - Kopya\Satis.Data\bin\Debug\Satis.Data.dll
+C:\Users\Recep Senturk\Desktop\AdinAjans - Kopya\Satis.Data\bin\Debug\Satis.Data.pdb
+C:\Users\Recep Senturk\Desktop\AdinAjans - Kopya\Satis.Data\obj\Debug\Satis.Data.csprojResolveAssemblyReference.cache
+C:\Users\Recep Senturk\Desktop\AdinAjans - Kopya\Satis.Data\obj\Debug\Satis.Data.dll
+C:\Users\Recep Senturk\Desktop\AdinAjans - Kopya\Satis.Data\obj\Debug\Satis.Data.pdb
+D:\AdinAjans - slider\Satis.Data\bin\Debug\Satis.Data.dll.config
+D:\AdinAjans - slider\Satis.Data\bin\Debug\Satis.Data.dll
+D:\AdinAjans - slider\Satis.Data\bin\Debug\Satis.Data.pdb
+D:\AdinAjans - slider\Satis.Data\obj\Debug\ResolveAssemblyReference.cache
+D:\AdinAjans - slider\Satis.Data\obj\Debug\Satis.Data.dll
+D:\AdinAjans - slider\Satis.Data\obj\Debug\Satis.Data.pdb
+J:\AdinAjans - slider\Satis.Data\bin\Debug\Satis.Data.dll.config
+J:\AdinAjans - slider\Satis.Data\bin\Debug\Satis.Data.dll
+J:\AdinAjans - slider\Satis.Data\bin\Debug\Satis.Data.pdb
+J:\AdinAjans - slider\Satis.Data\obj\Debug\Satis.Data.csprojResolveAssemblyReference.cache
+J:\AdinAjans - slider\Satis.Data\obj\Debug\Satis.Data.dll
+J:\AdinAjans - slider\Satis.Data\obj\Debug\Satis.Data.pdb
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans - slider\Satis.Data\bin\Debug\Satis.Data.dll.config
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans - slider\Satis.Data\bin\Debug\Satis.Data.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans - slider\Satis.Data\bin\Debug\Satis.Data.pdb
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans - slider\Satis.Data\obj\Debug\Satis.Data.csprojResolveAssemblyReference.cache
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans - slider\Satis.Data\obj\Debug\Satis.Data.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans - slider\Satis.Data\obj\Debug\Satis.Data.pdb
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans - slider - denemee\Satis.Data\bin\Debug\Satis.Data.dll.config
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans - slider - denemee\Satis.Data\bin\Debug\Satis.Data.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans - slider - denemee\Satis.Data\bin\Debug\Satis.Data.pdb
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans - slider - denemee\Satis.Data\obj\Debug\Satis.Data.csprojResolveAssemblyReference.cache
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans - slider - denemee\Satis.Data\obj\Debug\Satis.Data.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans - slider - denemee\Satis.Data\obj\Debug\Satis.Data.pdb
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans - Kopya\Satis.Data\bin\Debug\Satis.Data.dll.config
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans - Kopya\Satis.Data\bin\Debug\Satis.Data.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans - Kopya\Satis.Data\bin\Debug\Satis.Data.pdb
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans - Kopya\Satis.Data\obj\Debug\Satis.Data.csprojResolveAssemblyReference.cache
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans - Kopya\Satis.Data\obj\Debug\Satis.Data.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans - Kopya\Satis.Data\obj\Debug\Satis.Data.pdb
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans_2\Satis.Data\bin\Debug\Satis.Data.dll.config
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans_2\Satis.Data\bin\Debug\Satis.Data.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans_2\Satis.Data\bin\Debug\Satis.Data.pdb
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans_2\Satis.Data\obj\Debug\Satis.Data.csprojResolveAssemblyReference.cache
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans_2\Satis.Data\obj\Debug\Satis.Data.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans_2\Satis.Data\obj\Debug\Satis.Data.pdb
+C:\Users\Adinajans\Desktop\AdinAjans\AdinAjans\Satis.Data\bin\Debug\Satis.Data.dll.config
+C:\Users\Adinajans\Desktop\AdinAjans\AdinAjans\Satis.Data\bin\Debug\Satis.Data.dll
+C:\Users\Adinajans\Desktop\AdinAjans\AdinAjans\Satis.Data\bin\Debug\Satis.Data.pdb
+C:\Users\Adinajans\Desktop\AdinAjans\AdinAjans\Satis.Data\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Adinajans\Desktop\AdinAjans\AdinAjans\Satis.Data\obj\Debug\Satis.Data.dll
+C:\Users\Adinajans\Desktop\AdinAjans\AdinAjans\Satis.Data\obj\Debug\Satis.Data.pdb
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\AdinAjans\Satis.Data\bin\Debug\Satis.Data.dll.config
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\AdinAjans\Satis.Data\bin\Debug\Satis.Data.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\AdinAjans\Satis.Data\bin\Debug\Satis.Data.pdb
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\AdinAjans\Satis.Data\obj\Debug\Satis.Data.csprojResolveAssemblyReference.cache
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\AdinAjans\Satis.Data\obj\Debug\Satis.Data.dll
+C:\Users\Recep Senturk\Documents\Visual Studio 2010\Projects\AdinAjans\AdinAjans\Satis.Data\obj\Debug\Satis.Data.pdb
+C:\Users\Rcpsntrk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.Data\bin\Debug\Satis.Data.dll.config
+C:\Users\Rcpsntrk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.Data\bin\Debug\Satis.Data.dll
+C:\Users\Rcpsntrk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.Data\bin\Debug\Satis.Data.pdb
+C:\Users\Rcpsntrk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.Data\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Rcpsntrk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.Data\obj\Debug\Satis.Data.dll
+C:\Users\Rcpsntrk\Documents\Visual Studio 2010\Projects\AdinAjans\Satis.Data\obj\Debug\Satis.Data.pdb
+E:\Programs\AdinAjans\AdinAjans\Satis.Data\bin\Debug\Satis.Data.dll.config
+E:\Programs\AdinAjans\AdinAjans\Satis.Data\bin\Debug\Satis.Data.dll
+E:\Programs\AdinAjans\AdinAjans\Satis.Data\bin\Debug\Satis.Data.pdb
+E:\Programs\AdinAjans\AdinAjans\Satis.Data\obj\Debug\Satis.Data.csprojResolveAssemblyReference.cache
+E:\Programs\AdinAjans\AdinAjans\Satis.Data\obj\Debug\Satis.Data.dll
+E:\Programs\AdinAjans\AdinAjans\Satis.Data\obj\Debug\Satis.Data.pdb
+C:\Users\Recep\Desktop\AdinAjans\AdinAjans\Satis.Data\bin\Debug\Satis.Data.dll.config
+C:\Users\Recep\Desktop\AdinAjans\AdinAjans\Satis.Data\bin\Debug\Satis.Data.dll
+C:\Users\Recep\Desktop\AdinAjans\AdinAjans\Satis.Data\bin\Debug\Satis.Data.pdb
+C:\Users\Recep\Desktop\AdinAjans\AdinAjans\Satis.Data\obj\Debug\Satis.Data.csprojResolveAssemblyReference.cache
+C:\Users\Recep\Desktop\AdinAjans\AdinAjans\Satis.Data\obj\Debug\Satis.Data.dll
+C:\Users\Recep\Desktop\AdinAjans\AdinAjans\Satis.Data\obj\Debug\Satis.Data.pdb
+D:\Desktop\AdinAjans\AdinAjans\Satis.Data\bin\Debug\Satis.Data.dll.config
+D:\Desktop\AdinAjans\AdinAjans\Satis.Data\bin\Debug\Satis.Data.dll
+D:\Desktop\AdinAjans\AdinAjans\Satis.Data\bin\Debug\Satis.Data.pdb
+D:\Desktop\AdinAjans\AdinAjans\Satis.Data\obj\Debug\Satis.Data.csprojResolveAssemblyReference.cache
+D:\Desktop\AdinAjans\AdinAjans\Satis.Data\obj\Debug\Satis.Data.dll
+D:\Desktop\AdinAjans\AdinAjans\Satis.Data\obj\Debug\Satis.Data.pdb
